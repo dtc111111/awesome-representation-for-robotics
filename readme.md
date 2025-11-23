@@ -16,9 +16,9 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 ---
 
 ## Overview
-  - [3DGS Survey](#3dgs-survey)
+  - [Survey](#3dgs-survey)
     
-  - [3DGS General Model](#3dgs-general-model)
+  - [General Model](#3dgs-general-model)
     - [Photorealistic](#photorealistic)
     - [Sparse View](#sparse-view)
     - [Accelerate & Compression](#accelerate--compression)
@@ -42,7 +42,7 @@ If you find this repository useful, please consider [citing](#citation) and STAR
   - [Citation](#citation)
 
 ---
-## 3DGS Survey
+## Survey
 #### [S1] A Survey on 3D Gaussian Splatting
 - **🧑‍🔬 Author**：Guikun Chen, Wenguan Wang
 - **🏫 Institute**：Zhejiang University
@@ -81,7 +81,7 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 
 
-## 3DGS General Model
+## General Model
 ---
 * 3D Gaussian Splatting for Real-Time Radiance Field Rendering, **SIGGRAPH, 2023**. [[Paper](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf)] [[Website](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)]
 ### Photorealistic

@@ -75,14 +75,6 @@ If you find this repository useful, please consider [citing](#citation) and STAR
     - [5.8 Foundation Model](#5.8-Foundation-Model)
 
   - [6.Simulation](#simulation)
-    - [6.1 Point Cloud](#6.1-Point-Cloud)
-    - [6.2 Voxel Grid](#6.2-Voxel-Grid)
-    - [6.3 Signed Distance Field(SDF)](#6.3-Signed-Distance-Field(SDF))
-    - [6.4 Mesh](#6.4-Mesh)
-    - [6.5 Scene Graph](#6.5-Scene-Graph)
-    - [6.6 Neural Radiance Fields(NeRF)](#6.6-Neural-Radiance-Fields(NeRF))
-    - [6.7 3D Gaussian Splatting(3DGS)](#6.7-3D-Gaussian-Splatting(3DGS))
-    - [6.8 Foundation Model](#6.8-Foundation-Model)
 
   - [Citation](#citation)
 
@@ -706,13 +698,6 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 ### 5.8 Foundation Model<a id="5.8-Foundation-Model"></a>
 
 ## 6.Simulation<a id="simulation"></a>
-### 6.1 Point Cloud<a id="6.1-Point-Cloud"></a>
-### 6.2 Voxel Grid<a id="6.2-Voxel-Grid"></a>
-### 6.3 Signed Distance Field(SDF)<a id="6.3-Signed-Distance-Field(SDF)"></a>
-### 6.4 Mesh<a id="6.4-Mesh"></a>
-### 6.5 Scene Graph<a id="6.5-Scene-Graph"></a>
-### 6.6 Neural Radiance Fields(NeRF)<a id="6.6-Neural-Radiance-Fields(NeRF)"></a>
-### 6.7 3D Gaussian Splatting(3DGS)<a id="6.7-3D-Gaussian-Splatting(3DGS)"></a>
 * Control4D: Efficient 4D Portrait Editing with Text, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2305.20082.pdf)] [[Website](https://control4darxiv.github.io/)]
 * Comp4D: LLM-Guided Compositional 4D Scene Generation, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.16993.pdf)] [[Website](https://vita-group.github.io/Comp4D/)] [[Code](https://github.com/VITA-Group/Comp4D)]
 * GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2402.07207.pdf)] [[Website](https://gala3d.github.io/)] [[Code](https://github.com/VDIGPKU/GALA3D)]
@@ -781,7 +766,6 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 * Instant3dit: Multiview Inpainting for Fast Editing of 3D Objects, *arXiv*. [[Paper](https://arxiv.org/abs/2412.00518)]
 * ZDySS -- Zero-Shot Dynamic Scene Stylization using Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2501.03875)]
 * Drag Your Gaussian: Effective Drag-Based Editing with Score Distillation for 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2501.18672)]
-### 6.8 Foundation Model<a id="6.8-Foundation-Model"></a> 
 
 ---
 ## Citation

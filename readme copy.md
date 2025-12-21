@@ -55,14 +55,10 @@ If you find this repository useful, please consider [citing](#citation) and STAR
     - [3.8 Foundation Model](#3.8-Foundation-Model)
 
   - [4.Navigation](#navigation)
-    - [4.1 Point Cloud](#4.1-Point-Cloud)
-    - [4.2 Voxel Grid](#4.2-Voxel-Grid)
-    - [4.3 Signed Distance Field (SDF)](#4.3-Signed-Distance-Field(SDF))
-    - [4.4 Mesh](#4.4-Mesh)
-    - [4.5 Scene Graph](#4.5-Scene-Graph)
-    - [4.6 Neural Radiance Fields (NeRF)](#4.6-Neural-Radiance-Fields(NeRF))
-    - [4.7 3D Gaussian Splatting (3DGS)](#4.7-3D-Gaussian-Splatting(3DGS))
-    - [4.8 Foundation Model](#4.8-Foundation-Model)
+    - [4.1 Geometric Representations](#4.1-Geometric-Representations)
+    - [4.2 NeRF-based Representations](#4.2-NeRF-based-Representations)
+    - [4.3 3DGS-based Representations](#4.3-3DGS-based-Representations)
+    - [4.4 Foundation Model](#4.4-Foundation-Model)
 
   - [5.Manipulation](#manipulation)
     - [5.1 Point Cloud](#5.1-Point-Cloud)
@@ -635,39 +631,43 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 
 ## 4.Navigation<a id="navigation"></a>
-### 4.1 Point Cloud<a id="4.1-Point-Cloud"></a>
-### 4.2 Voxel Grid<a id="4.2-Voxel-Grid"></a>
-### 4.3 Signed Distance Field (SDF)<a id="4.3-Signed-Distance-Field(SDF)"></a>
-### 4.4 Mesh<a id="4.4-Mesh"></a>
-### 4.5 Scene Graph<a id="4.5-Scene-Graph"></a>
-### 4.6 Neural Radiance Fields (NeRF)<a id="4.6-Neural-Radiance-Fields(NeRF)"></a>
-### 4.7 3D Gaussian Splatting (3DGS)<a id="4.7-3D-Gaussian-Splatting(3DGS)"></a>
-* Beyond Uncertainty: Risk-Aware Active View Acquisition for Safe Robot Navigation and 3D Scene Understanding with FisherRF, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.11396)] [[Website](https://arxiv.org/abs/2403.11396)]
-* HO-Gaussian: Hybrid Optimization of 3D Gaussian Splatting for Urban Scenes, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.20032.pdf)] [[Website](https://arxiv.org/abs/2403.20032)]
-* Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.02751.pdf)]
-* GaussNav: Gaussian Splatting for Visual Navigation, **TPAMI 2025**. [[Paper](https://arxiv.org/pdf/2403.11625.pdf)] [[Code](https://github.com/XiaohanLei/GaussNav)] [[Website](https://xiaohanlei.github.io/projects/GaussNav/)]
-* GS-Planner: A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction, **IROS, 2024**. [[Paper](https://arxiv.org/pdf/2405.10142)] [[Video](https://www.bilibili.com/video/BV1e1421S7Kh/)]
-* Active Implicit Reconstruction Using One-Shot View Planning, **ICRA, 2024**. [[Paper](https://arxiv.org/pdf/2310.00685)]
-* BEINGS: Bayesian Embodied Image-goal Navigation with Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2409.10216)]
-* SAFER-Splat: A Control Barrier Function for Safe Navigation with Online Gaussian Splatting Maps, *arXiv*. [[Paper](https://arxiv.org/abs/2409.09868)]
-* RT-GuIDE: Real-Time Gaussian splatting for Information-Driven Exploration, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.18122)]
-* RoboGSim: A Real2Sim2Real Robotic Gaussian Splatting Simulator, *arXiv*. [[Paper](https://arxiv.org/abs/2411.11839)]
-* iComMa: Inverting 3D Gaussian Splatting for Camera Pose Estimation via Comparing and Matching, *arXiv*. [[Paper](https://arxiv.org/abs/2312.09031)]
-* 3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.11367)] [[Website](https://arxiv.org/abs/2403.11367)]
-* Video2BEV: Transforming Drone Videos to BEVs for Video-based Geo-localization, *arXiv*. [[Paper](https://arxiv.org/abs/2411.13610)]
-* GS-GVINS: A Tightly-integrated GNSS-Visual-Inertial Navigation System Augmented by 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2502.10975)]
-* VR-Robo: A Real-to-Sim-to-Real Framework for Visual Robot Navigation and Locomotion, *arXiv*. [[Paper](https://arxiv.org/abs/2502.01536)]
-* 3D Gaussian Splatting aided Localization for Large and Complex Indoor-Environments, *arXiv*. [[Paper](https://arxiv.org/abs/2502.13803)]
-* GaussReg: Fast 3D Registration with Gaussian Splatting, **ECCV, 2024**. [[Paper](https://arxiv.org/abs/2407.05254)]
-* Gsloc: Efficient camera pose refinement via 3d gaussian splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2407.05254)]
-* GS-CPR: Efficient Camera Pose Refinement via 3D Gaussian Splatting, **ICLR, 2025**. [[Paper](https://openreview.net/forum?id=mP7uV59iJM)] [[code]](https://github.com/XRIM-Lab/GS-CPR)
-* ActiveGAMER: Active GAussian Mapping through Efficient Rendering, **CVPR, 2025**. [[Paper](https://arxiv.org/abs/2501.06897)]
-* GSplatLoc: Grounding Keypoint Descriptors into 3D Gaussian Splatting for Improved Visual Localization, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.16502)]
-* SplatLoc: 3D Gaussian Splatting-based Visual Localization for Augmented Reality, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.14067)]
-* GS-Pose: Cascaded Framework for Generalizable Segmentation-based 6D Object Pose Estimation, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.10683)] [[Website](https://dingdingcai.github.io/gs-pose/)][[Code](https://github.com/dingdingcai/GSPose)]
-* HGSLoc: 3DGS-based Heuristic Camera Pose Refinement, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.10925.pdf)]
-* GS2Pose: Tow-stage 6D Object Pose Estimation Guided by Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2411.03807)]
-### 4.8 Foundation Model<a id="4.8-Foundation-Model"></a>
+
+### 4.1 Geometric Representations
+*(Traditional methods including Point Cloud, Voxel Grid, and SDF)*
+* Navigation on point-cloud-a riemannian metric approach, **ICRA, 2014**. [[Paper](https://ieeexplore.ieee.org/document/6907453)]
+* Localization and navigation of a mobile robot using natural point landmarks extracted from sonar data, **Robotics and Autonomous Systems, 2000**. [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0921889099000858)]
+* OctoMap: An Efficient Probabilistic 3D Mapping Framework Based on Octrees, **Autonomous Robots, 2013**. [[Paper](https://link.springer.com/article/10.1007/s10514-012-9321-0)] [[Code](https://github.com/OctoMap/octomap)]
+* Fast-Planner: Robust and Efficient Quadrotor Trajectory Generation for Fast Autonomous Flight, **IEEE Robot. Autom. Lett., 2019**. [[Paper](https://ieeexplore.ieee.org/document/8758904)] [[Code](https://github.com/HKUST-Aerial-Robotics/Fast-Planner)]
+* Voxblox: Incremental 3d euclidean signed distance fields for on-board mav planning, **IROS, 2017**. [[Paper](https://ieeexplore.ieee.org/abstract/document/8202315)] [[Code](https://github.com/ethz-asl/voxblox)]
+* FIESTA: Fast Incremental Euclidean Distance Fields for Online Motion Planning of Aerial Robots, **IROS, 2019**. [[Paper](https://ieeexplore.ieee.org/abstract/document/8968199)] [[Code](https://github.com/HKUST-Aerial-Robotics/FIESTA)]
+
+### 4.2 NeRF-based Representations
+* Vision-only robot navigation in a neural radiance world (NeRF-Navigation), **IEEE Robot. Autom. Lett., 2022**. [[Paper](https://ieeexplore.ieee.org/document/9712211)] [[Website](https://m-adamkiewicz.github.io/nerf_navigation/)]
+* NFOMP: Neural field for optimal motion planner of differential drive robots with nonholonomic constraints, **IEEE Robot. Autom. Lett., 2022**. [[Paper](https://ieeexplore.ieee.org/document/9851532)]
+* CATNIPS: Collision Avoidance Through Neural Implicit Probabilistic Scenes, **IEEE Trans. Robot., 2024**. [[Paper](https://ieeexplore.ieee.org/document/10494911)]
+* RNR-Map: Renderable Neural Radiance Map for Visual Navigation, **CVPR, 2023**. [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Kwon_Renderable_Neural_Radiance_Map_for_Visual_Navigation_CVPR_2023_paper.html)] [[Website](https://obin-kwon.github.io/rnr-map/)]
+* Enhancing Exploratory Capability of Visual Navigation Using Uncertainty of Implicit Scene Representation, **IROS, 2024**. [[Paper](https://ieeexplore.ieee.org/document/10801778)]
+
+### 4.3 3DGS-based Representations
+*(Key modules: Path Planning & Exploration)*
+#### Path Planning
+* GaussNav: Gaussian Splatting for Visual Navigation, **IEEE Trans. Pattern Anal. Mach. Intell., 2025**. [[Paper](https://ieeexplore.ieee.org/document/10870413)] [[Code](https://github.com/XiaohanLei/GaussNav)]
+* Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps, **IEEE Trans. Robot., 2025**. [[Paper](https://ieeexplore.ieee.org/document/10930696)]
+* BEINGS: Bayesian Embodied Image-goal Navigation with Gaussian Splatting, **arXiv, 2024**. [[Paper](https://arxiv.org/abs/2409.10216)]
+
+#### Exploration
+* GS-Planner: A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction, **IROS, 2024**. [[Paper](https://arxiv.org/abs/2405.10142)]
+* Beyond Uncertainty: Risk-Aware Active View Acquisition for Safe Robot Navigation and 3D Scene Understanding with FisherRF, **arXiv, 2024**. [[Paper](https://arxiv.org/abs/2403.11396)]
+
+### 4.4 Foundation Model
+* NLMap: Open-vocabulary queryable scene representations for real world planning, **ICRA, 2023**. [[Paper](https://ieeexplore.ieee.org/document/10160679)] [[Website](https://nlmap-saycan.github.io/)] [[Code](https://github.com/apple/ml-nlmap)]
+* LM-Nav: Robotic navigation with large pre-trained models of language, vision, and action, **CoRL, 2023**. [[Paper](https://proceedings.mlr.press/v205/shah23b.html)] [[Website](https://sites.google.com/view/lmnav)] [[Code](https://github.com/blazejosinski/lm_nav)]
+* VLN-BERT: Improving vision-and-language navigation with image-text pairs from the web, **ECCV, 2020**. [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58539-6_16)] [[Code](https://github.com/arjunmajum/VLN-BERT)]
+* SayCan: Do As I Can, Not As I Say: Grounding Language in Robotic Affordances, **CoRL, 2022**. [[Paper](https://proceedings.mlr.press/v205/ahn23a.html)] [[Website](https://say-can.github.io/)]
+* VLP: Vision language planning for autonomous driving, **CVPR, 2024**. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Pan_VLP_Vision_Language_Planning_for_Autonomous_Driving_CVPR_2024_paper.html)] [[Code](https://github.com/CH3COOK/VLP)]
+* Reasoned Explorer: Reasoning about the unseen for efficient outdoor object navigation, **arXiv, 2023**. [[Paper](https://arxiv.org/abs/2309.10103)] [[Website](https://qiexie.com/reasoned_explorer/)]
+* VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models, **CoRL, 2023**. [[Paper](https://arxiv.org/abs/2307.05973)] [[Website](https://voxposer.github.io/)]
+* SayTap: Language to Quadrupedal Locomotion, **arXiv, 2023**. [[Paper](https://arxiv.org/abs/2306.07580)] [[Website](https://saytap.github.io/)]
 
 ## 5.Manipulation<a id="manipulation"></a>
 ### 5.1 Point Cloud<a id="5.1-Point-Cloud"></a>

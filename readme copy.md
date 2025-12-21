@@ -27,61 +27,61 @@ If you find this repository useful, please consider [citing](#citation) and STAR
   - [1.Perception](#perception)
     - [1.1 Point Cloud](#1.1-Point-Cloud)
     - [1.2 Voxel Grid](#1.2-Voxel-Grid)
-    - [1.3 Signed Distance Field(SDF)](#1.3-Signed-Distance-Field(SDF))
+    - [1.3 Signed Distance Field (SDF)](#1.3-Signed-Distance-Field(SDF))
     - [1.4 Mesh](#1.4-Mesh)
     - [1.5 Scene Graph](#1.5-Scene-Graph)
-    - [1.6 Neural Radiance Fields(NeRF)](#1.6-Neural-Radiance-Fields(NeRF))
-    - [1.7 3D Gaussian Splatting(3DGS)](#1.7-3D-Gaussian-Splatting(3DGS))
+    - [1.6 Neural Radiance Fields (NeRF)](#1.6-Neural-Radiance-Fields(NeRF))
+    - [1.7 3D Gaussian Splatting (3DGS)](#1.7-3D-Gaussian-Splatting(3DGS))
     - [1.8 Foundation Model](#1.8-Foundation-Model)
     
   - [2.Mapping](#mapping)
     - [2.1 Point Cloud](#2.1-Point-Cloud)
     - [2.2 Voxel Grid](#2.2-Voxel-Grid)
-    - [2.3 Signed Distance Field(SDF)](#2.3-Signed-Distance-Field(SDF))
+    - [2.3 Signed Distance Field (SDF)](#2.3-Signed-Distance-Field(SDF))
     - [2.4 Mesh](#2.4-Mesh)
     - [2.5 Scene Graph](#2.5-Scene-Graph)
-    - [2.6 Neural Radiance Fields(NeRF)](#2.6-Neural-Radiance-Fields(NeRF))
-    - [2.7 3D Gaussian Splatting(3DGS)](#2.7-3D-Gaussian-Splatting(3DGS))
+    - [2.6 Neural Radiance Fields (NeRF)](#2.6-Neural-Radiance-Fields(NeRF))
+    - [2.7 3D Gaussian Splatting (3DGS)](#2.7-3D-Gaussian-Splatting(3DGS))
     - [2.8 Foundation Model](#2.8-Foundation-Model)
 
   - [3.Localization](#localization)
     - [3.1 Point Cloud](#3.1-Point-Cloud)
     - [3.2 Voxel Grid](#3.2-Voxel-Grid)
-    - [3.3 Signed Distance Field(SDF)](#3.3-Signed-Distance-Field(SDF))
+    - [3.3 Signed Distance Field (SDF)](#3.3-Signed-Distance-Field(SDF))
     - [3.4 Mesh](#3.4-Mesh)
     - [3.5 Scene Graph](#3.5-Scene-Graph)
-    - [3.6 Neural Radiance Fields(NeRF)](#3.6-Neural-Radiance-Fields(NeRF))
-    - [3.7 3D Gaussian Splatting(3DGS)](#3.7-3D-Gaussian-Splatting(3DGS))
+    - [3.6 Neural Radiance Fields (NeRF)](#3.6-Neural-Radiance-Fields(NeRF))
+    - [3.7 3D Gaussian Splatting (3DGS)](#3.7-3D-Gaussian-Splatting(3DGS))
     - [3.8 Foundation Model](#3.8-Foundation-Model)
 
   - [4.Navigation](#navigation)
     - [4.1 Point Cloud](#4.1-Point-Cloud)
     - [4.2 Voxel Grid](#4.2-Voxel-Grid)
-    - [4.3 Signed Distance Field(SDF)](#4.3-Signed-Distance-Field(SDF))
+    - [4.3 Signed Distance Field (SDF)](#4.3-Signed-Distance-Field(SDF))
     - [4.4 Mesh](#4.4-Mesh)
     - [4.5 Scene Graph](#4.5-Scene-Graph)
-    - [4.6 Neural Radiance Fields(NeRF)](#4.6-Neural-Radiance-Fields(NeRF))
-    - [4.7 3D Gaussian Splatting(3DGS)](#4.7-3D-Gaussian-Splatting(3DGS))
+    - [4.6 Neural Radiance Fields (NeRF)](#4.6-Neural-Radiance-Fields(NeRF))
+    - [4.7 3D Gaussian Splatting (3DGS)](#4.7-3D-Gaussian-Splatting(3DGS))
     - [4.8 Foundation Model](#4.8-Foundation-Model)
 
   - [5.Manipulation](#manipulation)
     - [5.1 Point Cloud](#5.1-Point-Cloud)
     - [5.2 Voxel Grid](#5.2-Voxel-Grid)
-    - [5.3 Signed Distance Field(SDF)](#5.3-Signed-Distance-Field(SDF))
+    - [5.3 Signed Distance Field (SDF)](#5.3-Signed-Distance-Field(SDF))
     - [5.4 Mesh](#5.4-Mesh)
     - [5.5 Scene Graph](#5.5-Scene-Graph)
-    - [5.6 Neural Radiance Fields(NeRF)](#5.6-Neural-Radiance-Fields(NeRF))
-    - [5.7 3D Gaussian Splatting(3DGS)](#5.7-3D-Gaussian-Splatting(3DGS))
+    - [5.6 Neural Radiance Fields (NeRF)](#5.6-Neural-Radiance-Fields(NeRF))
+    - [5.7 3D Gaussian Splatting (3DGS)](#5.7-3D-Gaussian-Splatting(3DGS))
     - [5.8 Foundation Model](#5.8-Foundation-Model)
 
   - [6.Simulation](#simulation)
     - [6.1 Point Cloud](#6.1-Point-Cloud)
     - [6.2 Voxel Grid](#6.2-Voxel-Grid)
-    - [6.3 Signed Distance Field(SDF)](#6.3-Signed-Distance-Field(SDF))
+    - [6.3 Signed Distance Field (SDF)](#6.3-Signed-Distance-Field(SDF))
     - [6.4 Mesh](#6.4-Mesh)
     - [6.5 Scene Graph](#6.5-Scene-Graph)
-    - [6.6 Neural Radiance Fields(NeRF)](#6.6-Neural-Radiance-Fields(NeRF))
-    - [6.7 3D Gaussian Splatting(3DGS)](#6.7-3D-Gaussian-Splatting(3DGS))
+    - [6.6 Neural Radiance Fields (NeRF)](#6.6-Neural-Radiance-Fields(NeRF))
+    - [6.7 3D Gaussian Splatting (3DGS)](#6.7-3D-Gaussian-Splatting(3DGS))
     - [6.8 Foundation Model](#6.8-Foundation-Model)
 
   - [Citation](#citation)
@@ -328,11 +328,11 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 ## 1.Perception<a id="perception"></a>
 ### 1.1 Point Cloud<a id="1.1-Point-Cloud"></a>
 ### 1.2 Voxel Grid<a id="1.2-Voxel-Grid"></a>
-### 1.3 Signed Distance Field(SDF)<a id="1.3-Signed-Distance-Field(SDF)"></a>
+### 1.3 Signed Distance Field (SDF)<a id="1.3-Signed-Distance-Field(SDF)"></a>
 ### 1.4 Mesh<a id="1.4-Mesh"></a>
 ### 1.5 Scene Graph<a id="1.5-Scene-Graph"></a>
-### 1.6 Neural Radiance Fields(NeRF)<a id="1.6-Neural-Radiance-Fields(NeRF)"></a>
-### 1.7 3D Gaussian Splatting(3DGS)<a id="1.7-3D-Gaussian-Splatting(3DGS)"></a>
+### 1.6 Neural Radiance Fields (NeRF)<a id="1.6-Neural-Radiance-Fields(NeRF)"></a>
+### 1.7 3D Gaussian Splatting (3DGS)<a id="1.7-3D-Gaussian-Splatting(3DGS)"></a>
 * Semantic Gaussians: Open-Vocabulary Scene Understanding with 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.15624)] [[Website
 ](https://semantic-gaussians.github.io/)]
 * Segment Any 3D Gaussians, *arXiv*. [[Paper](https://jumpat.github.io/SAGA/SAGA_paper.pdf)] [[Website](https://jumpat.github.io/SAGA/)] [[Code](https://github.com/Jumpat/SegAnyGAussians)]
@@ -419,53 +419,11 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 ## 2.Mapping<a id="mapping"></a>
 ### 2.1 Point Cloud<a id="2.1-Point-Cloud"></a>
 ### 2.2 Voxel Grid<a id="2.2-Voxel-Grid"></a>
-### 2.3 Signed Distance Field(SDF)<a id="2.3-Signed-Distance-Field(SDF)"></a>
+### 2.3 Signed Distance Field (SDF)<a id="2.3-Signed-Distance-Field(SDF)"></a>
 ### 2.4 Mesh<a id="2.4-Mesh"></a>
 ### 2.5 Scene Graph<a id="2.5-Scene-Graph"></a>
-### 2.6 Neural Radiance Fields(NeRF)<a id="2.6-Neural-Radiance-Fields(NeRF)"></a>
-### 2.7 3D Gaussian Splatting(3DGS)<a id="2.7-3D-Gaussian-Splatting(3DGS)"></a>
-* Multimodal Virtual Point 3D Detection， **NeurIPS**, [[Paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/895daa408f494ad58006c47a30f51c1f-Paper.pdf)] [[Website](https://tianweiy.github.io/mvp/)]
-* PIXOR: Real-time 3D Object Detection from Point Clouds， **CVPR,2018**, [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf)]
-* 3DSSD: Point-Based 3D Single Stage Object Detector, **IEEE**, [[Website](https://ieeexplore.ieee.org/document/9156597)]
-* Center-based 3D Object Detection and Tracking, **CVPR,2021**,[[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Yin_Center-Based_3D_Object_Detection_and_Tracking_CVPR_2021_paper.pdf)]
-* VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection, **CVPR,2018**, [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.pdf)]
-* PointPillars: Fast Encoders for Object Detection From Point Clouds, **IEEE**, [[Website](https://ieeexplore.ieee.org/document/8954311)]
-* NeRF-Det: Learning Geometry-Aware Volumetric Representation
-for Multi-View 3D Object Detection, **ICCV,2023**, [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_NeRF-Det_Learning_Geometry-Aware_Volumetric_Representation_for_Multi-View_3D_Object_Detection_ICCV_2023_paper.pdf)]
-* GO-N3RDet: Geometry Optimized NeRF-enhanced 3D Object Detector, **CVPR,2025**, [[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Li_GO-N3RDet_Geometry_Optimized_NeRF-enhanced_3D_Object_Detector_CVPR_2025_paper.pdf)]
-* 6DGS: 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model, **ECCV,2024**, [[Website](https://link.springer.com/chapter/10.1007/978-3-031-72943-0_24)]
-* YOLO-World: Real-Time Open-Vocabulary Object Detection, **CVPR,2024**, [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_YOLO-World_Real-Time_Open-Vocabulary_Object_Detection_CVPR_2024_paper.pdf)]
-* YOLOE: Real-Time Seeing Anything, **ICCV,2025**, [[Paper](https://openaccess.thecvf.com/content/ICCV2025/supplemental/Wang_YOLOE_Real-Time_Seeing_ICCV_2025_supplemental.pdf)]
-* MATT-GS: Masked Attention-based 3DGS for Robot Perception and Object Detection, **arXiv**, [[Website](https://arxiv.org/abs/2503.19330)]
-* GS2Pose: Tow-stage 6D Object Pose Estimation Guided by Gaussian Splatting, **arXiv**,  [[Website](https://arxiv.org/abs/2411.03807)]
-* Grounding DINO: Marrying DINO with Grounded
-Pre-Training for Open-Set Object Detection, **ECCV,2024**, [[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06319.pdf)]
-* SGFormer: semantic graph transformer for point cloud-based 3D scene graph generation, **aaai,2024**,  [[Website](https://dl.acm.org/doi/10.1609/aaai.v38i5.28197)]
-* SceneGraphFusion: Incremental 3D Scene Graph Prediction
-from RGB-D Sequences, **CVPR,2021**, [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_SceneGraphFusion_Incremental_3D_Scene_Graph_Prediction_From_RGB-D_Sequences_CVPR_2021_paper.pdf)]
-* 3D Scene Graph: A Structure for Unified Semantics, 3D Space, and Camera, **IEEE**, [[Website](https://ieeexplore.ieee.org/document/9008302)]
-* Self-Supervised Learning of Scene-Graph
-Representations for Robotic Sequential
-Manipulation Planning, **Proc, 2021**, [[Website](https://proceedings.mlr.press/v155/nguyen21b/nguyen21b.pdf)]
-* PointContrast: Unsupervised Pre-training for
-3D Point Cloud Understanding, **ECCV,2020**, [[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480579.pdf)]
-* A Unified Query-based Paradigm for Point Cloud Understanding, **CVPR,2022**, [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_A_Unified_Query-Based_Paradigm_for_Point_Cloud_Understanding_CVPR_2022_paper.pdf)]
-* SNI-SLAM: Semantic Neural Implicit SLAM, **CVPR, 2024**, [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_SNI-SLAM_Semantic_Neural_Implicit_SLAM_CVPR_2024_paper.pdf)]
-* Hydra: A Real-time Spatial Perception System for
-3D Scene Graph Construction and Optimization, **Robotics, 2022**, [[Paper](https://www.roboticsproceedings.org/rss18/p050.pdf)]
-* VMNet: Voxel-Mesh Network for Geodesic-Aware 3D Semantic Segmentation, **IEEE, 2021**, [[Website](https://ieeexplore.ieee.org/document/9710530)]
-* VoxFormer: Sparse Voxel Transformer for Camera-based
-3D Semantic Scene Completion, **CVPR, 2023**, [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_VoxFormer_Sparse_Voxel_Transformer_for_Camera-Based_3D_Semantic_Scene_Completion_CVPR_2023_paper.pdf)]
-* OctoMap:
-An Efficient Probabilistic 3D Mapping Framework Based on Octrees, **Autonomous Robots, 2013**, [[Paper](https://courses.cs.washington.edu/courses/cse571/16au/slides/hornung13auro.pdf)]
-* SurroundSDF: Implicit 3D Scene Understanding Based on Signed Distance Field, **IEEE, 2024**, [[Website](https://ieeexplore.ieee.org/document/10658156)]
-* CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields, **IEEE, 2022**, [[Website](https://ieeexplore.ieee.org/document/9879953)]
-* LERF: Language Embedded Radiance Fields, **ICCV, 2023**, [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kerr_LERF_Language_Embedded_Radiance_Fields_ICCV_2023_paper.pdf)]
-* GaussianBeV : 3D Gaussian Representation meets Perception Models for BeV
-Segmentation, **WACV, 2025**, [[Paper](https://openaccess.thecvf.com/content/WACV2025/papers/Chabot_GaussianBeV__3D_Gaussian_Representation_Meets_Perception_Models_for_BeV_WACV_2025_paper.pdf)]
-* CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory, **ROBOTICS, 2023**, [[Website](https://ai.meta.com/research/publications/clip-fields-weakly-supervised-semantic-fields-for-robotic-memory/)]
-* Scene-LLM: Extending Language Model for 3D Visual Reasoning, **IEEE, 2025**, [[Website](https://ieeexplore.ieee.org/abstract/document/10943341)]
-* Open-vocabulary Queryable Scene Representations for Real World Planning, *arxiv*, [[Paper](https://arxiv.org/pdf/2209.09874)]
+### 2.6 Neural Radiance Fields (NeRF)<a id="2.6-Neural-Radiance-Fields(NeRF)"></a>
+### 2.7 3D Gaussian Splatting (3DGS)<a id="2.7-3D-Gaussian-Splatting(3DGS)"></a>
 * VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2402.17427.pdf)] [[Website](https://vastgaussian.github.io/)] [[Code](https://github.com/kangpeilun/VastGaussian)]
 * 3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting, **TOG 2024**. [[Paper](https://arxiv.org/pdf/2404.00409.pdf)] [[Code](https://github.com/CVMI-Lab/3DGSR)]
 * HGS-Mapping: Online Dense Mapping Using Hybrid Gaussian Representation in Urban Scenes, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.20159.pdf)]
@@ -597,11 +555,11 @@ Segmentation, **WACV, 2025**, [[Paper](https://openaccess.thecvf.com/content/WAC
 ## 3.Localization<a id="localization></a>
 ### 3.1 Point Cloud<a id="3.1-Point-Cloud"></a>
 ### 3.2 Voxel Grid<a id="3.2-Voxel-Grid"></a>
-### 3.3 Signed Distance Field(SDF)<a id="3.3-Signed-Distance-Field(SDF)"></a>
+### 3.3 Signed Distance Field (SDF)<a id="3.3-Signed-Distance-Field(SDF)"></a>
 ### 3.4 Mesh<a id="3.4-Mesh"></a>
 ### 3.5 Scene Graph<a id="3.5-Scene-Graph"></a>
-### 3.6 Neural Radiance Fields(NeRF)<a id="3.6-Neural-Radiance-Fields(NeRF)"></a>
-### 3.7 3D Gaussian Splatting(3DGS)<a id="3.7-3D-Gaussian-Splatting(3DGS)"></a>
+### 3.6 Neural Radiance Fields (NeRF)<a id="3.6-Neural-Radiance-Fields(NeRF)"></a>
+### 3.7 3D Gaussian Splatting (3DGS)<a id="3.7-3D-Gaussian-Splatting(3DGS)"></a>
 * SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM,  **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2402.03246.pdf)] [[Code](https://github.com/ShuhongLL/SGS-SLAM)]
 * Compact 3D Gaussian Splatting For Dense Visual SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.11247.pdf)] [[Code](https://github.com/dtc111111/Compact_GSSLAM)]
 * NGM-SLAM: Gaussian Splatting SLAM with Radiance Field Submap, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.05702)]
@@ -679,11 +637,11 @@ Segmentation, **WACV, 2025**, [[Paper](https://openaccess.thecvf.com/content/WAC
 ## 4.Navigation<a id="navigation"></a>
 ### 4.1 Point Cloud<a id="4.1-Point-Cloud"></a>
 ### 4.2 Voxel Grid<a id="4.2-Voxel-Grid"></a>
-### 4.3 Signed Distance Field(SDF)<a id="4.3-Signed-Distance-Field(SDF)"></a>
+### 4.3 Signed Distance Field (SDF)<a id="4.3-Signed-Distance-Field(SDF)"></a>
 ### 4.4 Mesh<a id="4.4-Mesh"></a>
 ### 4.5 Scene Graph<a id="4.5-Scene-Graph"></a>
-### 4.6 Neural Radiance Fields(NeRF)<a id="4.6-Neural-Radiance-Fields(NeRF)"></a>
-### 4.7 3D Gaussian Splatting(3DGS)<a id="4.7-3D-Gaussian-Splatting(3DGS)"></a>
+### 4.6 Neural Radiance Fields (NeRF)<a id="4.6-Neural-Radiance-Fields(NeRF)"></a>
+### 4.7 3D Gaussian Splatting (3DGS)<a id="4.7-3D-Gaussian-Splatting(3DGS)"></a>
 * Beyond Uncertainty: Risk-Aware Active View Acquisition for Safe Robot Navigation and 3D Scene Understanding with FisherRF, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.11396)] [[Website](https://arxiv.org/abs/2403.11396)]
 * HO-Gaussian: Hybrid Optimization of 3D Gaussian Splatting for Urban Scenes, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.20032.pdf)] [[Website](https://arxiv.org/abs/2403.20032)]
 * Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.02751.pdf)]
@@ -714,11 +672,11 @@ Segmentation, **WACV, 2025**, [[Paper](https://openaccess.thecvf.com/content/WAC
 ## 5.Manipulation<a id="manipulation"></a>
 ### 5.1 Point Cloud<a id="5.1-Point-Cloud"></a>
 ### 5.2 Voxel Grid<a id="5.2-Voxel-Grid"></a>
-### 5.3 Signed Distance Field(SDF)<a id="5.3-Signed-Distance-Field(SDF)"></a>
+### 5.3 Signed Distance Field (SDF)<a id="5.3-Signed-Distance-Field(SDF)"></a>
 ### 5.4 Mesh<a id="5.4-Mesh"></a>
 ### 5.5 Scene Graph<a id="5.5-Scene-Graph"></a>
-### 5.6 Neural Radiance Fields(NeRF)<a id="5.6-Neural-Radiance-Fields(NeRF)"></a>
-### 5.7 3D Gaussian Splatting(3DGS)<a id="5.7-3D-Gaussian-Splatting(3DGS)"></a>
+### 5.6 Neural Radiance Fields (NeRF)<a id="5.6-Neural-Radiance-Fields(NeRF)"></a>
+### 5.7 3D Gaussian Splatting (3DGS)<a id="5.7-3D-Gaussian-Splatting(3DGS)"></a>
 * Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes, **IEEE, 2021**, [[Website](https://ieeexplore.ieee.org/document/9561877)]
 * Sequential Manipulation Planning on Scene Graph, **IEEE, 2022**, [[Website](https://ieeexplore.ieee.org/document/9981735)]
 * Fast Task Planning with Neuro-Symbolic Relaxation, **arXiv**, [[Website](https://arxiv.org/abs/2507.15975)]
@@ -784,11 +742,11 @@ Diffusion Priors, **ICCV, 2025**, [[Paper](https://openaccess.thecvf.com/content
 ## 6.Simulation<a id="simulation"></a>
 ### 6.1 Point Cloud<a id="6.1-Point-Cloud"></a>
 ### 6.2 Voxel Grid<a id="6.2-Voxel-Grid"></a>
-### 6.3 Signed Distance Field(SDF)<a id="6.3-Signed-Distance-Field(SDF)"></a>
+### 6.3 Signed Distance Field (SDF)<a id="6.3-Signed-Distance-Field(SDF)"></a>
 ### 6.4 Mesh<a id="6.4-Mesh"></a>
 ### 6.5 Scene Graph<a id="6.5-Scene-Graph"></a>
-### 6.6 Neural Radiance Fields(NeRF)<a id="6.6-Neural-Radiance-Fields(NeRF)"></a>
-### 6.7 3D Gaussian Splatting(3DGS)<a id="6.7-3D-Gaussian-Splatting(3DGS)"></a>
+### 6.6 Neural Radiance Fields (NeRF)<a id="6.6-Neural-Radiance-Fields(NeRF)"></a>
+### 6.7 3D Gaussian Splatting (3DGS)<a id="6.7-3D-Gaussian-Splatting(3DGS)"></a>
 * Control4D: Efficient 4D Portrait Editing with Text, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2305.20082.pdf)] [[Website](https://control4darxiv.github.io/)]
 * Comp4D: LLM-Guided Compositional 4D Scene Generation, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.16993.pdf)] [[Website](https://vita-group.github.io/Comp4D/)] [[Code](https://github.com/VITA-Group/Comp4D)]
 * GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2402.07207.pdf)] [[Website](https://gala3d.github.io/)] [[Code](https://github.com/VDIGPKU/GALA3D)]

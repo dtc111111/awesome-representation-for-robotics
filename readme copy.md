@@ -632,8 +632,8 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 ## 4.Navigation<a id="navigation"></a>
 
-### 4.1 Geometric Representations
-*(Traditional methods including Point Cloud, Voxel Grid, and SDF)*
+### 4.1 Geometric Representations<a id="#4.1-Geometric-Representations"></a>
+
 * Navigation on point-cloud-a riemannian metric approach, **ICRA, 2014**. [[Paper](https://ieeexplore.ieee.org/document/6907453)]
 * Localization and navigation of a mobile robot using natural point landmarks extracted from sonar data, **Robotics and Autonomous Systems, 2000**. [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0921889099000858)]
 * OctoMap: An Efficient Probabilistic 3D Mapping Framework Based on Octrees, **Autonomous Robots, 2013**. [[Paper](https://link.springer.com/article/10.1007/s10514-012-9321-0)] [[Code](https://github.com/OctoMap/octomap)]
@@ -641,15 +641,15 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 * Voxblox: Incremental 3d euclidean signed distance fields for on-board mav planning, **IROS, 2017**. [[Paper](https://ieeexplore.ieee.org/abstract/document/8202315)] [[Code](https://github.com/ethz-asl/voxblox)]
 * FIESTA: Fast Incremental Euclidean Distance Fields for Online Motion Planning of Aerial Robots, **IROS, 2019**. [[Paper](https://ieeexplore.ieee.org/abstract/document/8968199)] [[Code](https://github.com/HKUST-Aerial-Robotics/FIESTA)]
 
-### 4.2 NeRF-based Representations
+### 4.2 NeRF-based Representations<a id="#4.2-NeRF-based-Representations"></a>
 * Vision-only robot navigation in a neural radiance world (NeRF-Navigation), **IEEE Robot. Autom. Lett., 2022**. [[Paper](https://ieeexplore.ieee.org/document/9712211)] [[Website](https://m-adamkiewicz.github.io/nerf_navigation/)]
 * NFOMP: Neural field for optimal motion planner of differential drive robots with nonholonomic constraints, **IEEE Robot. Autom. Lett., 2022**. [[Paper](https://ieeexplore.ieee.org/document/9851532)]
 * CATNIPS: Collision Avoidance Through Neural Implicit Probabilistic Scenes, **IEEE Trans. Robot., 2024**. [[Paper](https://ieeexplore.ieee.org/document/10494911)]
 * RNR-Map: Renderable Neural Radiance Map for Visual Navigation, **CVPR, 2023**. [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Kwon_Renderable_Neural_Radiance_Map_for_Visual_Navigation_CVPR_2023_paper.html)] [[Website](https://obin-kwon.github.io/rnr-map/)]
 * Enhancing Exploratory Capability of Visual Navigation Using Uncertainty of Implicit Scene Representation, **IROS, 2024**. [[Paper](https://ieeexplore.ieee.org/document/10801778)]
 
-### 4.3 3DGS-based Representations
-*(Key modules: Path Planning & Exploration)*
+### 4.3 3DGS-based Representations<a id="#4.3-3DGS-based-Representations"></a>
+
 #### Path Planning
 * GaussNav: Gaussian Splatting for Visual Navigation, **IEEE Trans. Pattern Anal. Mach. Intell., 2025**. [[Paper](https://ieeexplore.ieee.org/document/10870413)] [[Code](https://github.com/XiaohanLei/GaussNav)]
 * Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps, **IEEE Trans. Robot., 2025**. [[Paper](https://ieeexplore.ieee.org/document/10930696)]
@@ -659,7 +659,7 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 * GS-Planner: A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction, **IROS, 2024**. [[Paper](https://arxiv.org/abs/2405.10142)]
 * Beyond Uncertainty: Risk-Aware Active View Acquisition for Safe Robot Navigation and 3D Scene Understanding with FisherRF, **arXiv, 2024**. [[Paper](https://arxiv.org/abs/2403.11396)]
 
-### 4.4 Foundation Model
+### 4.4 Foundation Model<a id="#4.4-Foundation-Model"></a>
 * NLMap: Open-vocabulary queryable scene representations for real world planning, **ICRA, 2023**. [[Paper](https://ieeexplore.ieee.org/document/10160679)] [[Website](https://nlmap-saycan.github.io/)] [[Code](https://github.com/apple/ml-nlmap)]
 * LM-Nav: Robotic navigation with large pre-trained models of language, vision, and action, **CoRL, 2023**. [[Paper](https://proceedings.mlr.press/v205/shah23b.html)] [[Website](https://sites.google.com/view/lmnav)] [[Code](https://github.com/blazejosinski/lm_nav)]
 * VLN-BERT: Improving vision-and-language navigation with image-text pairs from the web, **ECCV, 2020**. [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58539-6_16)] [[Code](https://github.com/arjunmajum/VLN-BERT)]

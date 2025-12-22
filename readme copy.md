@@ -414,26 +414,231 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 ## 2.Mapping<a id="mapping"></a>
 ### 2.1 Point Cloud<a id="2.1-Point-Cloud"></a>
+- COLMAP
+- Cube-SLAM
+- QuadricSLAM
+- ConceptFusion
+- ElasticFusion
+
 ### 2.2 Voxel Grid<a id="2.2-Voxel-Grid"></a>
+- VoxelMap
+- LiDAR Road-Atlas
+- OctoMap
+
 ### 2.3 Signed Distance Field (SDF)<a id="2.3-Signed-Distance-Field(SDF)"></a>
+
+- Voxgraph
+- KinectFusion
+
 ### 2.4 Mesh<a id="2.4-Mesh"></a>
+- Kimera
+
 ### 2.5 Scene Graph<a id="2.5-Scene-Graph"></a>
+- ConceptGraphs
+- Clio
+- Hydra
+
 ### 2.6 Neural Radiance Fields (NeRF)<a id="2.6-Neural-Radiance-Fields(NeRF)"></a>
+
+#### 2.6.1 SLAM
+
+- **NeuralRecon**: Real-Time Coherent 3D Reconstruction from Monocular Video, *CVPR, 2021*.[[Paper](https://arxiv.org/pdf/2104.00681.pdf)] [[Pytorch Code](https://github.com/zju3dv/NeuralRecon/)] [[Website](https://zju3dv.github.io/neuralrecon/)]
+- **Di-fusion**: Online implicit 3d reconstruction with deep priors, *CVPR, 2021*.[[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_DI-Fusion_Online_Implicit_3D_Reconstruction_With_Deep_Priors_CVPR_2021_paper.pdf)] [[Pytorch Code](https://github.com/huangjh-pub/di-fusion)]
+* **iSDF**: Real-Time Neural Signed Distance Fields for Robot Perception, *RSS, 2022*. [[Paper](https://arxiv.org/abs/2204.02296)] [[Pytorch Code](https://github.com/facebookresearch/iSDF)] [[Website](https://joeaortiz.github.io/iSDF/)]
+* **LENS**: LENS: Localization enhanced by NeRF synthesis, *CoRL, 2021*. [[Paper](https://arxiv.org/abs/2110.06558)] [[Video](https://www.youtube.com/watch?v=DgIpVoS6ejY)] 
+* **NICE-SLAM**: Neural Implicit Scalable Encoding for SLAM, *CVPR, 2021*. [[Paper](https://arxiv.org/abs/2112.12130)] [[Pytorch Code](https://github.com/cvg/nice-slam)] [[Website](https://pengsongyou.github.io/nice-slam?utm_source=catalyzex.com)]
+* **iMAP**: Implicit Mapping and Positioning in Real-Time, *ICCV, 2021*. [[Paper](https://arxiv.org/abs/2103.12352)] [[Website](https://edgarsucar.github.io/iMAP/)] [[Video](https://www.youtube.com/watch?v=c-zkKGArl5Y)] 
+* **BNV-Fusion**: BNV-Fusion: Dense 3D Reconstruction using Bi-level Neural Volume Fusion, *CVPR, 2022*. [[Paper](https://arxiv.org/pdf/2204.01139.pdf)] [[Pytorch Code](https://github.com/likojack/bnv_fusion)]
+* **NeRF-SLAM**: Real-Time Dense Monocular SLAM with Neural Radiance Fields, *IROS, 2023*. [[Paper](https://arxiv.org/pdf/2210.13641.pdf)] [[Pytorch Code](https://github.com/ToniRV/NeRF-SLAM)] [[Video](https://www.youtube.com/watch?v=-6ufRJugcEU)]
+* **Nerfels**: Renderable Neural Codes for Improved Camera Pose Estimation, *CVPR 2022 Workshop*. [[Paper](https://openaccess.thecvf.com/content/CVPR2022W/IMW/papers/Avraham_Nerfels_Renderable_Neural_Codes_for_Improved_Camera_Pose_Estimation_CVPRW_2022_paper.pdf)]
+* SDF-based RGB-D Camera Tracking in Neural Scene Representations, *ICRA Workshop, 2022*. [[Paper](https://neural-implicit-workshop.stanford.edu/assets/pdf/bruns.pdf)]
+* **Orbeez-SLAM**: A Real-time Monocular Visual SLAM with ORB Features and NeRF-realized Mapping, *ICRA, 2023*. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10160950)] [[Video](https://www.youtube.com/watch?v=uzb-tVcPETE)] [[Code](https://github.com/MarvinChung/Orbeez-SLAM)]
+* **ESLAM**: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields, *CVPR,  2023*. [[Paper](https://arxiv.org/pdf/2211.11704.pdf)]
+* **Vox-Fusion**: Dense Tracking and Mapping with Voxel-based Neural Implicit Representation, *ISMAR,  2022*. [[Paper](https://arxiv.org/pdf/2210.15858.pdf)] [[Website](https://yangxingrui.com/vox-fusion/)] [[Pytorch Code](https://github.com/zju3dv/Vox-Fusion)] [[Video](https://www.youtube.com/watch?v=Prp28y1b2Qs)]
+* Feature-Realistic Neural Fusion for Real-Time, Open Set Scene Understanding, *ICRA,  2022*. [[Paper](https://arxiv.org/pdf/2210.03043.pdf)]  [[Website](https://yangxingrui.com/vox-fusion/)] [[Video](https://www.youtube.com/watch?v=ysaohKI_Pf0)]
+* Dense RGB SLAM with Neural Implicit Maps, *ICLR, 2023*. [[Paper](https://arxiv.org/pdf/2301.08930v1.pdf)] [[Website](https://poptree.github.io/DIM-SLAM/)] [[Code](https://github.com/HKUST-3DV/DIM-SLAM)] [[Video]()]
+* **vMAP**: Vectorised Object Mapping for Neural Field SLAM, *CVPR,  2023*. [[Paper](https://arxiv.org/pdf/2302.01838.pdf)] [[Website](https://kxhit.github.io/vMAP)] [[Pytorch Code](https://github.com/kxhit/vMAP)] [[Video](https://kxhit.github.io/media/vMAP/vmap_raw.mp4)]
+* **NICER-SLAM**: Neural Implicit Scene Encoding for RGB SLAM, *3DV 2024*. [[Paper](https://arxiv.org/pdf/2302.03594.pdf)] [[Video](https://www.youtube.com/watch?v=tUXzqEZWg2w)]
+* Implicit Map Augmentation for Relocalization, *ECCV Workshop, 2022*. [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-25066-8_36)]
+* **Uni-Fusion**: Universal Continuous Mapping, *TRO, 2023*.[[Paper](https://arxiv.org/pdf/2303.12678.pdf)] [[Code](https://github.com/Jarrome/Uni-Fusion)] [[Website](https://jarrome.github.io/Uni-Fusion/)]
+* **NEWTON**: Neural View-Centric Mapping for On-the-Fly Large-Scale SLAM, *RAL, 2024*. [[Paper](https://arxiv.org/pdf/2303.13654v1.pdf)]
+* **Point-SLAM**: Dense Neural Point Cloud-based SLAM, *ICCV, 2023*. [[Paper](https://arxiv.org/pdf/2304.04278.pdf)] [[Code](https://github.com/tfy14esa/Point-SLAM)]
+* **RO-MAP**: Real-Time Multi-Object Mapping with Neural Radiance Fields, *RAL, 2023*. [[Paper](https://ieeexplore.ieee.org/document/10209177)] [[Code](https://github.com/XiaoHan-Git/RO-MAP)] [[Video](https://www.youtube.com/watch?v=sFrLXPw40wU)]
+* **Co-SLAM**: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM, *CVPR, 2023*. [[Paper](https://arxiv.org/pdf/2304.14377.pdf)] [[Website](https://hengyiwang.github.io/projects/CoSLAM)]
+* Neural Implicit Dense Semantic SLAM, *arXiv, 2023*. [[Paper](https://arxiv.org/pdf/2304.14560.pdf)] [[Code](https://github.com/Yasaman-Haghighi/NeuralImplicitDenseSemanticSLAM)]
+* **FMapping**: Factorized Efficient Neural Field Mapping for Real-Time Dense RGB SLAM, *arXiv, 2023*. [[Paper](https://arxiv.org/pdf/2306.00579v1.pdf)] [[Website](https://vlis2022.github.io/fmap/)] [[Code](https://github.com/thua919/FMapping)] 
+* **UncLe-SLAM**: Uncertainty Learning for Dense Neural SLAM, *ICCVw, 2023*. [[Paper](https://arxiv.org/pdf/2306.11048.pdf)] [[Code](https://github.com/kev-in-ta/UncLe-SLAM)]
+* **iMODE**:Real-Time Incremental Monocular Dense Mapping Using Neural Field, *ICRA, 2023*. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10161538)]
+* **NISB-Map**: Scalable Mapping With Neural Implicit Spatial Block, *RAL, 2023*. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10163242)]
+* RGB-D Mapping and Tracking in a Plenoxel Radiance Field, *WACV, 2024*. [[Paper](https://arxiv.org/pdf/2307.03404.pdf)]
+* Efficient Map Fusion for Multiple Implicit SLAM Agents, *TIV, 2023*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10189088)]
+* **MIPS-Fusion**: Multi-Implicit-Submaps for Scalable and Robust Online Neural RGB-D Reconstruction, *TOG, 2023*. [[Paper](https://arxiv.org/pdf/2308.08741.pdf)]
+* **GO-SLAM**: Global Optimization for Consistent 3D Instant Reconstruction, *ICCV, 2023*. [[Paper](https://arxiv.org/pdf/2309.02436.pdf)] [[Website](https://youmi-zym.github.io/projects/GO-SLAM/)] [[Code](https://github.com/youmi-zym/GO-SLAM)] 
+* End-to-End RGB-D SLAM with Multi-MLPs Dense Neural Implicit Representations, *RAL, 2023*. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10238793)]
+* **DynaMoN**: Motion-Aware Fast And Robust Camera Localization for Dynamic NeRF, *RAL, 2024*. [[Paper](https://arxiv.org/pdf/2309.08927.pdf)] [[Code](https://github.com/HannahHaensen/DynaMoN)] [[Website](https://hannahhaensen.github.io/DynaMoN/)]
+* **HI-SLAM**: Monocular Real-time Dense Mapping with Hybrid Implicit Fields, *RAL, 2023*. [[Paper](https://arxiv.org/pdf/2310.04787.pdf)] [[Website](https://hi-slam.github.io/)] 
+* **CP-SLAM**: Collaborative Neural Point-based SLAM, *NeurIPS, 2024*. [[Paper](https://openreview.net/pdf?id=dFSeZm6dTC)] [[Code](https://github.com/hjr37/CP-SLAM)]
+* Learning Neural Implicit through Volume Rendering with Attentive Depth Fusion Priors,  *NeurIPS, 2023*. [[Paper](https://arxiv.org/pdf/2310.11598.pdf)] [[Code](https://github.com/MachinePerceptionLab/Attentive_DFPrior)] [[Website](https://machineperceptionlab.github.io/Attentive_DF_Prior/)]
+* **NGEL-SLAM**: Neural Implicit Representation-based Global Consistent Low-Latency SLAM System, *ICRA, 2024*. [[Paper](https://arxiv.org/pdf/2311.09525.pdf)] [[Code](https://github.com/YunxuanMao/ngel_slam)] 
+* **SNI-SLAM**: Semantic Neural Implicit SLAM, *CVPR, 2024*. [[Paper](https://arxiv.org/pdf/2311.11016.pdf)] [[Code](https://github.com/IRMVLab/SNI-SLAM)]
+* Implicit Event-RGBD Neural SLAM, *CVPR, 2024*. [[Paper](https://arxiv.org/pdf/2311.11013.pdf)]
+* **DNS SLAM**: Dense Neural Semantic-Informed SLAM, *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2312.00204.pdf)] [Code](https://github.com/Li-Kunyi/dns-slam)]
+* **PLGSLAM**: Progressive Neural Scene Represenation with Local to Global Bundle Adjustment, *CVPR, 2024*. [[Paper](https://arxiv.org/pdf/2312.09866.pdf)] [[Code](https://github.com/dtc111111/plgslam)]
+* **NeRF-VO**: Real-Time Sparse Visual Odometry with Neural Radiance Fields, *RAL, 2024*. [[Paper](https://arxiv.org/pdf/2312.13471.pdf)]
+* Ternary-type Opacity and Hybrid Odometry for RGB-only NeRF-SLAM, *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2312.13332.pdf)]
+* **NID-SLAM**: Neural Implicit Representation-based RGB-D SLAM in dynamic environments, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2401.01189.pdf)]
+* **DDN-SLAM**: Real-time Dense Dynamic Neural Implicit SLAM with Joint Semantic Encoding, *RAL, 2025*. [[Paper](https://arxiv.org/pdf/2401.01545.pdf)] [[Code](https://github.com/DrLi-Ming/DDN-SLAM)]
+* **Hi-Map**: Hierarchical Factorized Radiance Field for High-Fidelity Monocular Dense Mapping, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2401.03203.pdf)] [[Website](https://vlis2022.github.io/fmap/)] [[Code](https://github.com/thua919/FMapping)]
+* **NeuV-SLAM**: Fast Neural Multiresolution Voxel Optimization for RGBD Dense SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2402.02020.pdf)] [[Code](https://github.com/DARYL-GWZ/NeuV-SLAM)]
+* **Loopy-SLAM**: Dense Neural SLAM with Loop Closures, *CVPR, 2024*. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Liso_Loopy-SLAM_Dense_Neural_SLAM_with_Loop_Closures_CVPR_2024_paper.pdf)] [[Code](https://github.com/eriksandstroem/Loopy-SLAM)] [[Website](https://notchla.github.io/Loopy-SLAM/)]
+* **Q-SLAM**: Quadric Representations for Monocular SLAM, *CoRL, 2024*. [[Paper](https://arxiv.org/pdf/2403.08125.pdf)]
+* **DVN-SLAM**: Dynamic Visual Neural SLAM Based on Local-Global Encoding, *ICRA, 2025*. [[Paper](https://arxiv.org/pdf/2403.11776.pdf)]
+* **H3-Mapping**: Quasi-Heterogeneous Feature Grids for Real-time Dense Mapping Using Hierarchical Hybrid Representation, *RAL, 2024*. [[Paper](https://arxiv.org/pdf/2403.10821.pdf)] [[Code](https://github.com/SYSU-STAR/H3-Mapping)]
+* **Vox-Fusion++**: Voxel-based Neural Implicit Dense Tracking and Mapping with Multi-maps, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.12536.pdf)] [[Code](https://github.com/zju3dv/Vox-Fusion_Plus_Plus)]
+* **MUTE-SLAM**: Real-Time Neural SLAM with Multiple Tri-Plane Hash Representations, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.17765.pdf)]
+* **GlORIE-SLAM**: Globally Optimized RGB-only Implicit Encoding Point Cloud SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.19549.pdf)] [[Code](https://github.com/zhangganlin/GlORIE-SLAM)] [[Website](https://ganlinzhang.xyz/GlORIE-SLAM/)]
+* Efficient 3D Instance Mapping and Localization with Neural Fields, *ICRA, 2024*. [[Paper](https://arxiv.org/pdf/2403.19797.pdf)] [[Website](https://gtangg12.github.io/iML/)]
+* **NeSLAM**: Neural Implicit Mapping and Self-Supervised Feature Tracking With Depth Completion and Denoising, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.20034.pdf)] [[Code](https://github.com/dtc111111/NeSLAM)]
+* **KN-SLAM**: Keypoints and Neural Implicit Encoding SLAM, *TIM, 2024*. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10474286)]
+* **SLAIM**: Robust Dense Neural SLAM for Online Tracking and Mapping, *CVPRw, 2024*. [[Paper](https://arxiv.org/pdf/2404.11419.pdf)] [[Code](https://github.com/vincentcartillier/SLAIM/)] [[Website](https://vincentcartillier.github.io/slaim.html)]
+* **EC-SLAM**: Real-time Dense Neural RGB-D SLAM System with Effectively Constrained Global Bundle Adjustment, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2404.13346.pdf)] [[Code](https://github.com/Lightingooo/EC-SLAM)]
+* **S3-SLAM**: Sparse Tri-plane Encoding for Neural Implicit SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2404.18284)]
+* **DF-SLAM**: Neural Feature Rendering Based on Dictionary Factors Representation for High-Fidelity Dense Visual SLAM System, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2404.17876)] [[Code](https://github.com/funcdecl/DF-SLAM)]
+* Neural Graph Mapping for Dense SLAM with Efficient Loop Closure, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.03633)] [[Code](https://github.com/KTH-RPL/neural_graph_mapping)] [[Website](https://kth-rpl.github.io/neural_graph_mapping/)]
+* **VPE-SLAM**: Neural Implicit Voxel-Permutohedral Encoding for SLAM, *ICRA, 2024*. [[Paper](todo)] [[Code](https://github.com/NeuCV-IRMI/VPE-SLAM)]
+* **ONeK-SLAM**: A Robust Object-Level Dense SLAM Based on Joint Neural Radiance Fields and Keypoints, *ICRA 2024*. [[Paper](todo)]
+* **HERO-SLAM**: Hybrid Enhanced Robust Optimization of Neural SLAM, *ICRA, 2024*. [[Paper](https://arxiv.org/pdf/2407.18813)] [[Code](https://github.com/hero-slam/HERO-SLAM)] [[Website](https://hero-slam.github.io/)]
+* **NeB-SLAM**: Neural Blocks-based Salable RGB-D SLAM for Unknown Scenes, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.15151)]
+* **ENeRF-SLAM**:A Dense Endoscopic SLAM With Neural Implicit Representation, *TMRB, 2024*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10542414)] [[Code](https://github.com/Mar-lll/ENeRF-SLAM)]
+* IBD-SLAM: Learning Image-Based Depth Fusion for Generalizable SLAM, *CVPR, 2024*. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yin_IBD-SLAM_Learning_Image-Based_Depth_Fusion_for_Generalizable_SLAM_CVPR_2024_paper.pdf)] [[Website](https://visual-ai.github.io/ibd-slam)]
+* **RoDyn-SLAM**: Robust Dynamic Dense RGB-D SLAM with Neural Radiance Fields, *RAL, 2024*. [[Paper](https://arxiv.org/pdf/2407.01303)] [[Code](https://github.com/fudan-zvg/Rodyn-SLAM)]
+* **MoD-SLAM**: Monocular Dense Mapping for Unbounded 3D Scene Reconstruction,  *RAL, 2024*. [[Paper](https://arxiv.org/pdf/2402.03762.pdf)]
+* Evaluating geometric accuracy of NeRF reconstructions compared to SLAM method,  *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2407.11238)]
+* **I2-SLAM**: Inverting Imaging Process for Robust Photorealistic Dense SLAM,  *ECCV, 2024*. [[Paper](https://arxiv.org/abs/2407.11347v1)]
+* **TivNe-SLAM**: Dynamic Mapping and Tracking via Time-Varying Neural Radiance Fields,  *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2310.18917v4)]
+* **NIS-SLAM**: Neural Implicit Semantic RGB-D SLAM for 3D Consistent Scene Understanding,  *TVCG, 2024*. [[Paper](https://arxiv.org/pdf/2407.20853)] [[Website](https://zju3dv.github.io/nis_slam/)]
+* **DDS-SLAM**: Dense Semantic Neural SLAM for Deforming Endoscopic Scenes, *IROS, 2024*. [Paper] [[Code](https://github.com/IRMVLab/DDS-SLAM)]
+* **FI-SLAM**: Feature Fusion and Instance Reconstruction for Neural Implicit SLAM,  *IROS, 2024*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10802296)] [Code]
+* **LCP-Fusion**: A Neural Implicit SLAM with Enhanced Local Constraints and Computable Prior,  *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2411.03610)] [[Code](https://github.com/laliwang/LCP-Fusion)]
+* **NF-SLAM**: Effective, Normalizing Flow-supported Neural Field representations for object-level visual SLAM in automotive applications, *IROS, 2024*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10801421)] [Code]
+* **EvenNICER-SLAM**: Event-based Neural Implicit Encoding SLAM,  *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2410.03812)] [[Code](https://github.com/cs-vision/EvenNICER-SLAM)]
+* **NVINS**: Robust Visual Inertial Navigation Fused with NeRF-augmented Camera Pose Regressor and Uncertainty Quantification, *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2404.01400)]
+* Optimizing NeRF-based SLAM with Trajectory Smoothness Constraints, *ICRA, 2025*. [[Paper](https://arxiv.org/pdf/2410.08780)]
+* **LRSLAM**: Low-rank Representation of Signed Distance Fields in Dense Visual SLAM System, *ECCV, 2024*. [[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10364.pdf)]
+* Bridging the Gap Between Explicit and Implicit Representations: Cross-Data Association for VSLAM, *TITS, 2024*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10738129)]
+* **MBA-SLAM**: Motion Blur Aware Dense Visual SLAM with Radiance Fields Representation, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2411.08279)] [[Code](https://github.com/WU-CVGL/MBA-SLAM)] [[Website](https://wangpeng000.github.io/MBA-SLAM/)]
+* **Uni-SLAM**: Uncertainty-Aware Neural Implicit SLAM for Real-Time Dense Indoor Scene Reconstruction, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2412.00242)] [[Website](https://shaoxiang777.github.io/project/uni-slam/)]
+* **iS-MAP**: Neural Implicit Mapping and Positioning for Structural Environments, *ACCV, 2024*. [[Paper](https://openaccess.thecvf.com/content/ACCV2024/papers/Wang_iS-MAP_Neural_Implicit_Mapping_and_Positioning_for_Structural_Environments_ACCV_2024_paper.pdf)] [[Code](https://github.com/00Haocheng/iS-MAP)]
+- Query Quantized Neural SLAM, *AAAI, 2025*. [[Paper](https://arxiv.org/pdf/2412.16476)] [[Code](https://github.com/MachinePerceptionLab/QQ-SLAM)] [[Website](https://machineperceptionlab.github.io/QQ-SLAM-page/)]
+- Hierarchical Pose Estimation and Mapping with Multi-scale Neural Feature Fields, *IRC, 2024*. [[Paper](https://arxiv.org/pdf/2412.20976)]
+- **Mee-SLAM**: Memory efficient endoscopic RGB SLAM with implicit scene representation, *Expert Systems with Applications, 2025*. [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417424031026)]
+- **Bayesian NeRF**: Quantifying Uncertainty with Volume Density for Neural Implicit Fields, *RAL, 2025*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10829678)]
+- **SP-SLAM**: Neural Real-Time Dense SLAM With Scene Priors, *TCSVT, 2025*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10830563)]
+- **SLC2-SLAM**: Semantic-guided Loop Closure with Shared Latent Code for NeRF SLAM, *RAL, 2025*. [[Paper](https://arxiv.org/pdf/2501.08880)]
+- Category-level Meta-learned NeRF Priors for Efficient Object Mapping, *IROS, 2025*. [[Paper](https://arxiv.org/pdf/2503.01582)]
+- **Proud-SLAM**: Neural Point-based Hybrid RGBD Monocular Dense SLAM, *ICASSP, 2025*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10888965)]
+- **NeRF-VIO**: Map-Based Visual-Inertial Odometry with Initialization Leveraging Neural Radiance Fields, *arXiv, 2025*. [[Paper](https://arxiv.org/pdf/2503.07952)]
+- **HS-SLAM**: Hybrid Representation with Structural Supervision for Improved Dense SLAM, *ICRA, 2025*. [[Paper](https://arxiv.org/pdf/2503.21778)] [[Website](https://zorangong.github.io/HS-SLAM/)]
+- Region sampling NeRF-SLAM based on Kolmogorov-Arnold network, *arXiv, 2025*. [[Paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0325024)] [[Code](https://github.com/GXXXXXT/RSNeRF/)]
+- **NDF-SLAM**: LiDAR SLAM based on neural distance field for registration and loop closure detection, *Measurement, 2025*. [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0263224125012631)]
+- **MISO**: Multiresolution Submap Optimization for Efficient Globally Consistent Neural Implicit Reconstruction, *RSS, 2025*. [[Paper](https://arxiv.org/pdf/2504.19104)] [[Code](https://github.com/ExistentialRobotics/MISO)] [[Website](https://existentialrobotics.org/miso_rss25/)]
+- Monocular Visual SLAM with Adjusting Neural Radiance Fields for 3D Reconstruction in Planetary Environments, *TGRS, 2025*. [[Paper](https://ieeexplore.ieee.org/abstract/document/11023632)]
+- **EC-SLAM**: Effectively constrained neural RGB-D SLAM with TSDF hash encoding and joint optimization, *PR, 2025*. [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320325006946)] [[Code](https://github.com/Lightingooo/EC-SLAM)]
+- Spatial Coordinate Transformation for 3D Neural Implicit Mapping, *RAL, 2025*. [[Paper](https://ieeexplore.ieee.org/abstract/document/11106682)] [[Code](https://github.com/Lab-of-AI-and-Robotics/SCT_NIM)]
+- SDF-Guided Keyframe Selection: Novel Boost for NeRF SLAM Loop Closure, *IROS, 2025*. [[Paper](https://ieeexplore.ieee.org/document/11246937)]
+- **SLC^2-SLAM**: Semantic-Guided Loop Closure Using Shared Latent Code for NeRF SLAM, *IROS, 2025*. [[Paper](https://ieeexplore.ieee.org/document/10935649/)]
+- **MARVO**: Marine-Adaptive Radiance-aware Visual Odometry, *arXiv, 2025*. [[Paper](https://arxiv.org/pdf/2511.22860)]
+
+#### 2.6.2 Scene Reconstruction
+
+
 ### 2.7 3D Gaussian Splatting (3DGS)<a id="2.7-3D-Gaussian-Splatting(3DGS)"></a>
+
+#### 2.7.1 SLAM
+* HGS-Mapping: Online Dense Mapping Using Hybrid Gaussian Representation in Urban Scenes, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.20159.pdf)]
+* MM-Gaussian: 3D Gaussian-based Multi-modal Fusion for Localization and Reconstruction in Unbounded Scenes, *arXiv*. [[Paper](https://arxiv.org/pdf/2404.04026)]
+* GSFusion: Online RGB-D Mapping Where Gaussian Splatting Meets TSDF Fusion, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.12677.pdf)]
+* LoopSplat: Loop Closure by Registering 3D Gaussian Splats, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.10154.pdf)]
+* SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM,  **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2402.03246.pdf)] [[Code](https://github.com/ShuhongLL/SGS-SLAM)]
+* Compact 3D Gaussian Splatting For Dense Visual SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.11247.pdf)] [[Code](https://github.com/dtc111111/Compact_GSSLAM)]
+* NGM-SLAM: Gaussian Splatting SLAM with Radiance Field Submap, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.05702)]
+* GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.10147)] [[Website](https://3d-aigc.github.io/GGRt/)]
+* MGS-SLAM: Monocular Sparse Tracking and Gaussian Mapping with Depth Smooth Regularization, *arXiv 2024*. [[Paper](https://arxiv.org/pdf/2405.06241)]
+* GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2311.11700.pdf)]
+* Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2311.16728.pdf)]
+* SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2312.02126.pdf)] [[Website](https://spla-tam.github.io/)] [[Code](https://github.com/spla-tam/SplaTAM)]
+* Gaussian Splatting SLAM, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2312.06741.pdf)] [[Code](https://github.com/muskie82/MonoGS)] [[Website](https://rmurai.co.uk/projects/GaussianSplattingSLAM/)]
+* Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting, *arXiv, 2023*. [[Paper](https://arxiv.org/pdf/2312.10070.pdf)] [[Code](https://github.com/VladimirYugay/Gaussian-SLAM)] [[Website](https://vladimiryugay.github.io/gaussian_slam/)]
+* SemGauss-SLAM: Dense Semantic Gaussian Splatting SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.07494.pdf)]
+* NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.11679.pdf)]
+* High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.12535.pdf)]
+* RGBD GS-ICP SLAM, **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2403.12550.pdf)] [[Code](https://github.com/Lab-of-AI-and-Robotics/GS_ICP_SLAM)] [[Video](https://www.youtube.com/watch?v=e-bHh_uMMxE)]
+* EndoGSLAM: Real-Time Dense Reconstruction and Tracking in Endoscopic Surgeries using Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.15124.pdf)] [[Website](https://endogslam.loping151.com/)] [[Code](https://github.com/Loping151/EndoGSLAM)]
+* CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field, **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2403.16095.pdf)] [[Code](https://github.com/hjr37/CG-SLAM)] [[Website](https://zju3dv.github.io/cg-slam/)]
+* RTG-SLAM: Real-time 3D Reconstruction at Scale using Gaussian Splatting, **SIGGRAPH, 2024**. [[Paper](https://arxiv.org/pdf/2404.19706)] [[Code](https://github.com/MisEty/RTG-SLAM)]
+* MotionGS: Compact Gaussian Splatting SLAM by Motion Filter, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.11129)] [[Code](https://github.com/Antonio521/MotionGS)]
+* Monocular Gaussian SLAM with Language Extended Loop Closure, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.13748)]
+* Splat-SLAM: Globally Optimized RGB-only SLAM with 3D Gaussians, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.16544)] [[Code](https://github.com/eriksandstroem/Splat-SLAM)]
+* MG-SLAM: Structure Gaussian SLAM with Manhattan World Hypothesis, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.20031)]
+* TAMBRIDGE: Bridging Frame-Centered Tracking and 3D Gaussian Splatting for Enhanced SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.19614)] [[Code](https://github.com/ZeldaFromHeaven/TAMBRIDGE-DAVID)] [[Website](https://zeldafromheaven.github.io/TAMBRIDGE/)]
+* IG-SLAM: Instant Gaussian SLAM, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.01126)]
+* Visual SLAM with 3D Gaussian Primitives and Depth Priors Enabling Novel View Synthesis, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.05635)]
+* Towards Real-Time Gaussian Splatting: Accelerating 3DGS through Photometric SLAM, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.05635)]
+* OG-Mapping: Octree-based Structured 3DGaussians for Online Dense Mapping, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.17223)]
+* 3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.11577)] [[Website](https://arxiv.org/abs/2403.11577)]
+* COLMAP-Free 3D Gaussian Splatting, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2312.07504.pdf)]
+* 6DGS: 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model, **ECCV, 2024**. [[Paper](https://arxiv.org/abs/2407.15484)] [[Code](https://github.com/mbortolon97/6dgs)]
+* Hi-SLAM: Scaling-up Semantics in SLAM with a Hierarchically Categorical Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.12518)]
+* GLC-SLAM: Gaussian Splatting SLAM with Efficient Loop Closure, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.10982)]
+* AG-SLAM: Active Gaussian Splatting SLAM, *arXiv*. [[Paper](https://arxiv.org/pdf/2410.17422.pdf)]
+* DG-SLAM: Robust Dynamic Gaussian Splatting SLAM with Hybrid Pose Optimization, *arXiv*. [[Paper](https://arxiv.org/abs/2411.08373)]
+* LiV-GS: LiDAR-Vision Integration for 3D Gaussian Splatting SLAM in Outdoor Environments, *arXiv*. [[Paper](https://arxiv.org/abs/2411.12185)]
+* DGS-SLAM: Gaussian Splatting SLAM in Dynamic Environment, *arXiv*. [[Paper](https://arxiv.org/abs/2411.10722)]
+* DeSiRe-GS: 4D Street Gaussians for Static-Dynamic Decomposition and Surface Reconstruction for Urban Driving Scenes, *arXiv*. [[Paper](https://arxiv.org/abs/2411.11921)]
+* GaussianPretrain: A Simple Unified 3D Gaussian Representation for Visual Pre-training in Autonomous Driving, *arXiv*. [[Paper](https://arxiv.org/abs/2411.12452)]
+* HI-SLAM2: Geometry-Aware Gaussian SLAM for Fast Monocular Scene Reconstruction, *arXiv*. [[Paper](https://arxiv.org/abs/2411.17982)]
+* DROID-Splat: Combining end-to-end SLAM with 3D Gaussian Splatting, *arXiv*. [[Code](https://github.com/ChenHoy/DROID-Splat)]
+* PG-SLAM: Photo-realistic and Geometry-aware RGB-D SLAM in Dynamic Environments, *arXiv*. [[Paper](https://arxiv.org/abs/2411.15800)]
+* Gassidy: Gaussian Splatting SLAM in Dynamic Environments, *arXiv*. [[Paper](https://arxiv.org/abs/2411.15476)]
+* SplatAD: Real-Time Lidar and Camera Rendering with 3D Gaussian Splatting for Autonomous Driving, *arXiv*. [[Paper](https://arxiv.org/abs/2411.16816)]
+* MAC-Ego3D: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction, *arXiv*. [[Paper](https://arxiv.org/abs/2412.09723)]
+* RP-SLAM: Real-time Photorealistic SLAM with Efficient 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2412.09868)]
+* RGBDS-SLAM: A RGB-D Semantic Dense SLAM Based on 3D Multi Level Pyramid Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2412.01217)]
+* FlashSLAM: Accelerated RGB-D SLAM for Real-Time 3D Scene Reconstruction with Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2412.00682)]
+* NeRF and Gaussian Splatting SLAM in the Wild, *arXiv*. [[Paper](https://arxiv.org/abs/2412.03263)]
+* GSplatLoc: Ultra - Precise Camera Localization via 3D Gaussian Splatting, *arXiv*. [[Paper](https://www.arxiv.org/abs/2412.20056)]
+* CityLoc: 6 DoF Localization of Text Descriptions in Large-Scale Scenes with Gaussian Representation, *arXiv*. [[Paper](https://arxiv.org/abs/2501.08982)]
+* VINGS-Mono: Visual-Inertial Gaussian Splatting Monocular SLAM in Large Scenes, *arXiv*. [[Paper](https://arxiv.org/abs/2501.08286)]
+* Scaffold-SLAM: Structured 3D Gaussians for Simultaneous Localization and Photorealistic Mapping, *arXiv*. [[Paper](https://arxiv.org/abs/2501.05242)]
+* PanoSLAM: Panoptic 3D Scene Reconstruction via Gaussian SLAM, *arXiv*. [[Paper](https://arxiv.org/abs/2501.00352)]
+* GS-LiDAR: Generating Realistic LiDAR Point Clouds with Panoramic Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2501.13971)]
+* GeomGS: LiDAR-Guided Geometry-Aware Gaussian Splatting for Robot Localization, *arXiv*. [[Paper](https://arxiv.org/abs/2501.13417)]
+* VIGS SLAM: IMU-based Large-Scale 3D Gaussian Splatting SLAM, *arXiv*. [[Paper](https://arxiv.org/abs/2501.13402)]
+* Advancing Dense Endoscopic Reconstruction with Gaussian Splatting-driven Surface Normal-aware Tracking and Mapping, *arXiv*. [[Paper](https://arxiv.org/abs/2501.19319)]
+* DenseSplat: Densifying Gaussian Splatting SLAM with Neural Radiance Prior, *arXiv*. [[Paper](https://arxiv.org/abs/2502.09111)]
+* GARAD-SLAM: 3D GAussian splatting for Real-time Anti Dynamic SLAM, *arXiv*. [[Paper](https://arxiv.org/abs/2502.03228)]
+* PINGS: Gaussian Splatting Meets Distance Fields within a Point-Based Implicit Neural Map, *arXiv*. [[Paper](https://arxiv.org/abs/2502.05752)]
+* SIREN: Semantic, Initialization-Free Registration of Multi-Robot Gaussian Splatting Maps, *arXiv*. [[Paper](https://arxiv.org/abs/2502.06519)]
+* Multi-Modal Neural Radiance Field for Monocular Dense SLAM with a Light-Weight ToF Sensor, **ICCV, 2023**. [[Paper](https://arxiv.org/pdf/2308.14383.pdf)] [[Website](https://zju3dv.github.io/tof_slam/)] [[Code](https://github.com/zju3dv/tof_slam)]
+* LIV-GaussMap: LiDAR-Inertial-Visual Fusion for Real-time 3D Radiance Field Map Rendering, **RAL, 2024**. [[Paper](https://arxiv.org/pdf/2401.14857.pdf)] [[Code](https://github.com/sheng00125/LIV-GaussMap)]
+* MM3DGS SLAM: Multi-modal 3D Gaussian Splatting for SLAM Using Vision, Depth, and Inertial Measurements, **IROS, 2024**. [[Paper](https://arxiv.org/pdf/2404.00923.pdf)] [[Website](https://vita-group.github.io/MM3DGS-SLAM/)]
+* MM-Gaussian: 3D Gaussian-based Multi-modal Fusion for Localization and Reconstruction in Unbounded Scenes, **IROS, 2024**. [[Paper](https://arxiv.org/pdf/2404.04026.pdf)]
+* Gaussian-LIC: Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2404.06926.pdf)]
+* Go-SLAM: Grounded Object Segmentation and Localization with Gaussian Splatting SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2409.16944.pdf)]
+
+
+#### 2.7.2 Scene Reconstruction
+
 * VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2402.17427.pdf)] [[Website](https://vastgaussian.github.io/)] [[Code](https://github.com/kangpeilun/VastGaussian)]
 * 3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting, **TOG 2024**. [[Paper](https://arxiv.org/pdf/2404.00409.pdf)] [[Code](https://github.com/CVMI-Lab/3DGSR)]
-* HGS-Mapping: Online Dense Mapping Using Hybrid Gaussian Representation in Urban Scenes, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.20159.pdf)]
 * A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets, **SIGGRAPH, 2024**. [[Paper](https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/hierarchical-3d-gaussians_high.pdf)] [[Website](https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/)]
 * Fed3DGS: Scalable 3D Gaussian Splatting with Federated Learning, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.11460)] [[Code](https://github.com/DensoITLab/Fed3DGS)]
 * Creating Seamless 3D Maps Using Radiance Fields, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.11364.pdf)]
 * CityGaussian: Real-time High-quality Large-Scale Scene Rendering with Gaussians, **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2403.20159.pdf)] [[Website](https://dekuliutesla.github.io/citygs/)]
-* MM-Gaussian: 3D Gaussian-based Multi-modal Fusion for Localization and Reconstruction in Unbounded Scenes, *arXiv*. [[Paper](https://arxiv.org/pdf/2404.04026)]
 * On Scaling Up 3D Gaussian Splatting Training, *arXiv*. [[Paper](https://arxiv.org/abs/2406.18533)] [[Website](https://daohanlu.github.io/scaling-up-3dgs/)] [[Code](https://github.com/nyu-systems/Grendel-GS)]
 * HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.12722.pdf)] [[Code](https://xdimlab.github.io/hugs_website/)]
 * SGD: Street View Synthesis with Gaussian Splatting and Diffusion Prior, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.20079.pdf)] [[Website](https://arxiv.org/abs/2403.20079)]
 * Ev-GS: Event-based Gaussian splatting for Efficient and Accurate Radiance Field Rendering, *arXiv*. [[Paper](https://arxiv.org/pdf/2407.11343.pdf)]
-* GSFusion: Online RGB-D Mapping Where Gaussian Splatting Meets TSDF Fusion, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.12677.pdf)]
-* LoopSplat: Loop Closure by Registering 3D Gaussian Splats, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.10154.pdf)]
 * FlashGS: Efficient 3D Gaussian Splatting for Large-scale and High-resolution Rendering, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.07967.pdf)]
 * OmniRe: Omni Urban Scene Reconstruction, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.16760.pdf)]
 * GigaGS: Scaling up Planar-Based 3D Gaussians for Large Scene Surface Reconstruction, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.06685.pdf)]
@@ -448,7 +653,6 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 * L3DG: Latent 3D Gaussian Diffusion, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2410.13530.pdf)]
 * PLGS: Robust Panoptic Lifting with 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2410.17505)]
 * Normal-GS: 3D Gaussian Splatting with Normal-Involved Rendering, *arXiv*. [[Paper](https://arxiv.org/abs/2410.20593)]
-* ActiveSplat: High-Fidelity Scene Reconstruction through Active Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2410.21955)]
 * ODGS: 3D Scene Reconstruction from Omnidirectional Images with 3D Gaussian Splattings, *arXiv*. [[Paper](https://arxiv.org/abs/2410.20686)]
 * Momentum-GS: Momentum Gaussian Self-Distillation for High-Quality Large Scene Reconstruction, *arXiv*. [[Paper](https://arxiv.org/abs/2412.04887)]
 * Radiant: Large-scale 3D Gaussian Rendering based on Hierarchical Framework, *arXiv*. [[Paper](https://arxiv.org/abs/2412.05546)]
@@ -545,90 +749,95 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 * GS-DiT: Advancing Video Generation with Pseudo 4D Gaussian Fields through Efficient Dense 3D Point Tracking, *arXiv*. [[Paper](https://arxiv.org/abs/2501.02690)]
 * Micro-macro Wavelet-based Gaussian Splatting for 3D Reconstruction from Unconstrained Images, *arXiv*. [[Paper](https://arxiv.org/abs/2501.14231)]
 * OG-Gaussian: Occupancy Based Street Gaussians for Autonomous Driving, *arXiv*. [[Paper](https://arxiv.org/abs/2502.14235)]
-### 2.8 Foundation Model<a id="2.8-Foundation-Model></a>
 
+
+### 2.8 Foundation Model<a id="2.8-Foundation-Model></a>
+- CUT3R
+- Pow3R
+- MASt3R
+- MUSt3R
+- VGGT
+- Spann3R
+- π3
+- DUSt3R
 
 ## 3.Localization<a id="localization></a>
+
 ### 3.1 Point Cloud<a id="3.1-Point-Cloud"></a>
+- F-LOAM
+- ORB-SLAM2
+- DROID-SLAM
+- TEASER++
+- KISS-ICP
+- MonoSLAM
+
 ### 3.2 Voxel Grid<a id="3.2-Voxel-Grid"></a>
+- Voxel-Loc
+- Voxel-6D
+
+
 ### 3.3 Signed Distance Field (SDF)<a id="3.3-Signed-Distance-Field(SDF)"></a>
+- Free-space features
+- Freetures
+
+
 ### 3.4 Mesh<a id="3.4-Mesh"></a>
+
 ### 3.5 Scene Graph<a id="3.5-Scene-Graph"></a>
+- X-View
+- SG-Reg
+
 ### 3.6 Neural Radiance Fields (NeRF)<a id="3.6-Neural-Radiance-Fields(NeRF)"></a>
+
+* Loc-NeRF: Monte Carlo Localization using Neural Radiance Fields, *ICRA, 2023*. [[Paper](https://arxiv.org/pdf/2209.09050.pdf)] [[Code](https://github.com/MIT-SPARK/Loc-NeRF)]
+* NeRF-Loc: Visual Localization with Conditional Neural Radiance Field, *ICRA, 2023*. [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10161420&casa_token=xvxGsiWymY0AAAAA:K21qxl7O2Uef-4Gfzqsu_TiA_2GE7EY5Q9iJyawRGZ8sWMKfsxTuANCC7pOcAByT45rS-XIk&tag=1)] [[Code](https://github.com/TencentYoutuResearch/NeRF-Loc)]
+* LocNDF: Neural Distance Field Mapping for Robot Localization, *RAL, 2023*. [[Paper](https://ieeexplore.ieee.org/document/10168941/)] [[Code](https://github.com/PRBonn/LocNDF)]
+* Leveraging Neural Radiance Fields for Uncertainty-Aware Visual Localization, *ICRA, 2024*. [[Paper](https://arxiv.org/pdf/2310.06984.pdf)] [[Video](https://drive.google.com/file/d/1YUMlngGFvYY_iPNu9wMA1woxw8432qXh/view?usp=sharing)]
+* The NeRFect Match: Exploring NeRF Features for Visual Localization, *ECCV, 2024*. [[Paper](https://arxiv.org/pdf/2403.09577.pdf)] [[Website](https://nerfmatch.github.io/)] [[Code](https://github.com/nv-dvl/nerfmatch)]
+* Leveraging Neural Radiance Fields for Uncertainty-Aware Visual Localization, *ICRA, 2024*. [[Paper](https://arxiv.org/pdf/2310.06984)]
+* NuRF: Nudging the Particle Filter in Radiance Fields for Robot Visual Localization, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2406.00312)]
+* Fast Global Localization on Neural Radiance Field, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2406.12202)] [[Code](https://github.com/kmk97/Fast-Loc-NeRF)]
+* Matching Query Image Against Selected NeRF Feature for Efficient and Scalable Localization, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2406.11766)]
+* Visual Localization in 3D Maps: Comparing Point Cloud, Mesh, and NeRF Representations, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2408.11966)]
+* Camera Relocalization in Shadow-Free Neural Radiance Fields, *ICRA, 2024*. [[Paper](https://arxiv.org/pdf/2405.14824)]
+* MULAN-WC: Multi-Robot Localization Uncertainty-aware Active NeRF with Wireless Coordination, *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2403.13348)]
+* VRS-NeRF: Visual Relocalization with Sparse Neural Radiance Field, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2404.09271)] [[Code](https://github.com/feixue94/vrs-nerf)]
+* WSCLoc: Weakly-Supervised Sparse-View Camera Relocalization via Radiance Field, *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2403.15272)]
+* CROSSFIRE: Camera Relocalization On Self-Supervised Features from an Implicit Representation, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.15272)]
+* NeuraLoc: Visual Localization in Neural Implicit Map with Dual Complementary Features, *ICRA, 2025*. [[Paper](https://arxiv.org/pdf/2503.06117)]
+* Improving Indoor Localization Accuracy by Using an Efficient Implicit Neural Map Representation, *arXiv, 2025*. [[Paper](https://arxiv.org/pdf/2503.23480)] [[Code](https://arxiv.org/pdf/2503.23480)]
+
 ### 3.7 3D Gaussian Splatting (3DGS)<a id="3.7-3D-Gaussian-Splatting(3DGS)"></a>
-* SGS-SLAM: Semantic Gaussian Splatting For Neural Dense SLAM,  **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2402.03246.pdf)] [[Code](https://github.com/ShuhongLL/SGS-SLAM)]
-* Compact 3D Gaussian Splatting For Dense Visual SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.11247.pdf)] [[Code](https://github.com/dtc111111/Compact_GSSLAM)]
-* NGM-SLAM: Gaussian Splatting SLAM with Radiance Field Submap, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.05702)]
-* GGRt: Towards Generalizable 3D Gaussians without Pose Priors in Real-Time, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.10147)] [[Website](https://3d-aigc.github.io/GGRt/)]
-* MGS-SLAM: Monocular Sparse Tracking and Gaussian Mapping with Depth Smooth Regularization, *arXiv 2024*. [[Paper](https://arxiv.org/pdf/2405.06241)]
-* GS-SLAM: Dense Visual SLAM with 3D Gaussian Splatting, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2311.11700.pdf)]
-* Photo-SLAM: Real-time Simultaneous Localization and Photorealistic Mapping for Monocular, Stereo, and RGB-D Cameras, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2311.16728.pdf)]
-* SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2312.02126.pdf)] [[Website](https://spla-tam.github.io/)] [[Code](https://github.com/spla-tam/SplaTAM)]
-* Gaussian Splatting SLAM, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2312.06741.pdf)] [[Code](https://github.com/muskie82/MonoGS)] [[Website](https://rmurai.co.uk/projects/GaussianSplattingSLAM/)]
-* Gaussian-SLAM: Photo-realistic Dense SLAM with Gaussian Splatting, *arXiv, 2023*. [[Paper](https://arxiv.org/pdf/2312.10070.pdf)] [[Code](https://github.com/VladimirYugay/Gaussian-SLAM)] [[Website](https://vladimiryugay.github.io/gaussian_slam/)]
-* SemGauss-SLAM: Dense Semantic Gaussian Splatting SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.07494.pdf)]
-* NEDS-SLAM: A Novel Neural Explicit Dense Semantic SLAM Framework using 3D Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.11679.pdf)]
-* High-Fidelity SLAM Using Gaussian Splatting with Rendering-Guided Densification and Regularized Optimization, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.12535.pdf)]
-* RGBD GS-ICP SLAM, **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2403.12550.pdf)] [[Code](https://github.com/Lab-of-AI-and-Robotics/GS_ICP_SLAM)] [[Video](https://www.youtube.com/watch?v=e-bHh_uMMxE)]
-* EndoGSLAM: Real-Time Dense Reconstruction and Tracking in Endoscopic Surgeries using Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2403.15124.pdf)] [[Website](https://endogslam.loping151.com/)] [[Code](https://github.com/Loping151/EndoGSLAM)]
-* CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field, **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2403.16095.pdf)] [[Code](https://github.com/hjr37/CG-SLAM)] [[Website](https://zju3dv.github.io/cg-slam/)]
-* RTG-SLAM: Real-time 3D Reconstruction at Scale using Gaussian Splatting, **SIGGRAPH, 2024**. [[Paper](https://arxiv.org/pdf/2404.19706)] [[Code](https://github.com/MisEty/RTG-SLAM)]
-* MotionGS: Compact Gaussian Splatting SLAM by Motion Filter, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.11129)] [[Code](https://github.com/Antonio521/MotionGS)]
-* Monocular Gaussian SLAM with Language Extended Loop Closure, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.13748)]
-* Splat-SLAM: Globally Optimized RGB-only SLAM with 3D Gaussians, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.16544)] [[Code](https://github.com/eriksandstroem/Splat-SLAM)]
-* MG-SLAM: Structure Gaussian SLAM with Manhattan World Hypothesis, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.20031)]
-* TAMBRIDGE: Bridging Frame-Centered Tracking and 3D Gaussian Splatting for Enhanced SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2405.19614)] [[Code](https://github.com/ZeldaFromHeaven/TAMBRIDGE-DAVID)] [[Website](https://zeldafromheaven.github.io/TAMBRIDGE/)]
-* IG-SLAM: Instant Gaussian SLAM, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.01126)]
-* Visual SLAM with 3D Gaussian Primitives and Depth Priors Enabling Novel View Synthesis, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.05635)]
-* Towards Real-Time Gaussian Splatting: Accelerating 3DGS through Photometric SLAM, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.05635)]
-* OG-Mapping: Octree-based Structured 3DGaussians for Online Dense Mapping, *arXiv*. [[Paper](https://arxiv.org/pdf/2408.17223)]
-* 3DGS-Calib: 3D Gaussian Splatting for Multimodal SpatioTemporal Calibration, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.11577)] [[Website](https://arxiv.org/abs/2403.11577)]
-* COLMAP-Free 3D Gaussian Splatting, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2312.07504.pdf)]
-* 6DGS: 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model, **ECCV, 2024**. [[Paper](https://arxiv.org/abs/2407.15484)] [[Code](https://github.com/mbortolon97/6dgs)]
-* Hi-SLAM: Scaling-up Semantics in SLAM with a Hierarchically Categorical Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.12518)]
-* GLC-SLAM: Gaussian Splatting SLAM with Efficient Loop Closure, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.10982)]
-* AG-SLAM: Active Gaussian Splatting SLAM, *arXiv*. [[Paper](https://arxiv.org/pdf/2410.17422.pdf)]
-* DG-SLAM: Robust Dynamic Gaussian Splatting SLAM with Hybrid Pose Optimization, *arXiv*. [[Paper](https://arxiv.org/abs/2411.08373)]
-* LiV-GS: LiDAR-Vision Integration for 3D Gaussian Splatting SLAM in Outdoor Environments, *arXiv*. [[Paper](https://arxiv.org/abs/2411.12185)]
-* DGS-SLAM: Gaussian Splatting SLAM in Dynamic Environment, *arXiv*. [[Paper](https://arxiv.org/abs/2411.10722)]
-* DeSiRe-GS: 4D Street Gaussians for Static-Dynamic Decomposition and Surface Reconstruction for Urban Driving Scenes, *arXiv*. [[Paper](https://arxiv.org/abs/2411.11921)]
-* GaussianPretrain: A Simple Unified 3D Gaussian Representation for Visual Pre-training in Autonomous Driving, *arXiv*. [[Paper](https://arxiv.org/abs/2411.12452)]
-* HI-SLAM2: Geometry-Aware Gaussian SLAM for Fast Monocular Scene Reconstruction, *arXiv*. [[Paper](https://arxiv.org/abs/2411.17982)]
-* DROID-Splat: Combining end-to-end SLAM with 3D Gaussian Splatting, *arXiv*. [[Code](https://github.com/ChenHoy/DROID-Splat)]
-* PG-SLAM: Photo-realistic and Geometry-aware RGB-D SLAM in Dynamic Environments, *arXiv*. [[Paper](https://arxiv.org/abs/2411.15800)]
-* Gassidy: Gaussian Splatting SLAM in Dynamic Environments, *arXiv*. [[Paper](https://arxiv.org/abs/2411.15476)]
-* SplatAD: Real-Time Lidar and Camera Rendering with 3D Gaussian Splatting for Autonomous Driving, *arXiv*. [[Paper](https://arxiv.org/abs/2411.16816)]
-* MAC-Ego3D: Multi-Agent Gaussian Consensus for Real-Time Collaborative Ego-Motion and Photorealistic 3D Reconstruction, *arXiv*. [[Paper](https://arxiv.org/abs/2412.09723)]
-* RP-SLAM: Real-time Photorealistic SLAM with Efficient 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2412.09868)]
-* RGBDS-SLAM: A RGB-D Semantic Dense SLAM Based on 3D Multi Level Pyramid Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2412.01217)]
-* FlashSLAM: Accelerated RGB-D SLAM for Real-Time 3D Scene Reconstruction with Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2412.00682)]
-* NeRF and Gaussian Splatting SLAM in the Wild, *arXiv*. [[Paper](https://arxiv.org/abs/2412.03263)]
-* GSplatLoc: Ultra - Precise Camera Localization via 3D Gaussian Splatting, *arXiv*. [[Paper](https://www.arxiv.org/abs/2412.20056)]
-* CityLoc: 6 DoF Localization of Text Descriptions in Large-Scale Scenes with Gaussian Representation, *arXiv*. [[Paper](https://arxiv.org/abs/2501.08982)]
-* VINGS-Mono: Visual-Inertial Gaussian Splatting Monocular SLAM in Large Scenes, *arXiv*. [[Paper](https://arxiv.org/abs/2501.08286)]
-* Scaffold-SLAM: Structured 3D Gaussians for Simultaneous Localization and Photorealistic Mapping, *arXiv*. [[Paper](https://arxiv.org/abs/2501.05242)]
-* PanoSLAM: Panoptic 3D Scene Reconstruction via Gaussian SLAM, *arXiv*. [[Paper](https://arxiv.org/abs/2501.00352)]
-* GS-LiDAR: Generating Realistic LiDAR Point Clouds with Panoramic Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2501.13971)]
-* GeomGS: LiDAR-Guided Geometry-Aware Gaussian Splatting for Robot Localization, *arXiv*. [[Paper](https://arxiv.org/abs/2501.13417)]
-* VIGS SLAM: IMU-based Large-Scale 3D Gaussian Splatting SLAM, *arXiv*. [[Paper](https://arxiv.org/abs/2501.13402)]
-* Advancing Dense Endoscopic Reconstruction with Gaussian Splatting-driven Surface Normal-aware Tracking and Mapping, *arXiv*. [[Paper](https://arxiv.org/abs/2501.19319)]
-* DenseSplat: Densifying Gaussian Splatting SLAM with Neural Radiance Prior, *arXiv*. [[Paper](https://arxiv.org/abs/2502.09111)]
-* GARAD-SLAM: 3D GAussian splatting for Real-time Anti Dynamic SLAM, *arXiv*. [[Paper](https://arxiv.org/abs/2502.03228)]
-* PINGS: Gaussian Splatting Meets Distance Fields within a Point-Based Implicit Neural Map, *arXiv*. [[Paper](https://arxiv.org/abs/2502.05752)]
-* SIREN: Semantic, Initialization-Free Registration of Multi-Robot Gaussian Splatting Maps, *arXiv*. [[Paper](https://arxiv.org/abs/2502.06519)]
-* Multi-Modal Neural Radiance Field for Monocular Dense SLAM with a Light-Weight ToF Sensor, **ICCV, 2023**. [[Paper](https://arxiv.org/pdf/2308.14383.pdf)] [[Website](https://zju3dv.github.io/tof_slam/)] [[Code](https://github.com/zju3dv/tof_slam)]
-* LIV-GaussMap: LiDAR-Inertial-Visual Fusion for Real-time 3D Radiance Field Map Rendering, **RAL, 2024**. [[Paper](https://arxiv.org/pdf/2401.14857.pdf)] [[Code](https://github.com/sheng00125/LIV-GaussMap)]
-* MM3DGS SLAM: Multi-modal 3D Gaussian Splatting for SLAM Using Vision, Depth, and Inertial Measurements, **IROS, 2024**. [[Paper](https://arxiv.org/pdf/2404.00923.pdf)] [[Website](https://vita-group.github.io/MM3DGS-SLAM/)]
-* MM-Gaussian: 3D Gaussian-based Multi-modal Fusion for Localization and Reconstruction in Unbounded Scenes, **IROS, 2024**. [[Paper](https://arxiv.org/pdf/2404.04026.pdf)]
-* Gaussian-LIC: Photo-realistic LiDAR-Inertial-Camera SLAM with 3D Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2404.06926.pdf)]
-* Go-SLAM: Grounded Object Segmentation and Localization with Gaussian Splatting SLAM, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2409.16944.pdf)]
-* GS-EVT: Cross-Modal Event Camera Tracking based on Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2409.19228)]
-* MVSDet: Multi-View Indoor 3D Object Detection via Efficient Plane Sweeps, *arXiv, 2024*. [[Paper](https://arxiv.org/abs/2410.21566)]
-* Lifting by Gaussians: A Simple, Fast and Flexible Method for 3D Instance Segmentation, *arXiv*. [[Paper](https://arxiv.org/abs/2502.00173)]
-* PUGS: Zero-shot Physical Understanding with Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2502.12231)]
+
+
+
+* HGSLoc: 3DGS-based Heuristic Camera Pose Refinement, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2409.10925)]
+* GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2408.11085)] [[Website](https://gsloc.active.vision/)]
+* GSplatLoc: Grounding Keypoint Descriptors into 3D Gaussian Splatting for Improved Visual Localization, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2409.16502)] [[Website](https://gsplatloc.github.io/)] [[Code](https://github.com/haksorus/gsplatloc)]
+* GSLoc: Visual Localization with 3D Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2410.06165)]
+* LoGS: Visual Localization via Gaussian Splatting with Fewer Training Images, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2410.11505)] [[Code](https://github.com/YuzhouCheng66/LoGS-experiment)]
+* SplatLoc: 3D Gaussian Splatting-based Visual Localization for Augmented Reality, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2409.16502)] [[Website](https://zju3dv.github.io/splatloc/)] [[Code](https://github.com/zhaihongjia/SplatLoc)]
+* Multi-robot autonomous 3D reconstruction using Gaussian splatting with Semantic guidance, *RAL, 2025*. [[Paper](https://arxiv.org/pdf/2412.02249)]
+* GSplatLoc : Ultra-Precise Camera Localization via 3D Gaussian Splatting, *arXiv, 2024*. [[Paper](https://arxiv.org/pdf/2412.20056)] [[Code](https://github.com/AtticusZeller/GsplatLoc)]
+* GeomGS: LiDAR-Guided Geometry-Aware Gaussian Splatting for Robot Localization, *arXiv, 2025*. [[Paper](https://arxiv.org/pdf/2501.13417)]
+* 3D Gaussian Splatting aided Localization for Large and Complex Indoor-Environments, *arXiv, 2025*. [[Paper](https://arxiv.org/pdf/2502.13803)]
+* GS-EVT: Cross-Modal Event Camera Tracking based on Gaussian Splatting, *ICRA, 2025*. [[Paper](https://arxiv.org/pdf/2409.19228v1)] [[Code](https://github.com/ChillTerry/GS-EVT)]
+* GSFeatLoc: Visual Localization Using Feature Correspondence on 3D Gaussian Splatting, *arXiv, 2025*. [[Paper](https://arxiv.org/pdf/2504.20379)]
+* STDLoc: From Sparse to Dense: Camera Relocalization with Scene-Specific Detector from Feature Gaussian Splatting, *CVPR, 2025*. [[Paper](https://arxiv.org/pdf/2503.19358)][[Website](https://zju3dv.github.io/STDLoc/)] [[Code](https://github.com/zju3dv/STDLoc)]
+* SGLoc: Semantic Localization System for Camera Pose Estimation from 3D Gaussian Splatting Representation, *IROS, 2025*. [[Paper](https://arxiv.org/pdf/2507.12027)]
+* 3DGS-Loc: 3D Gaussian Splatting for Map Representation and Visual Localization, *Journal of Autonomous Vehicles and Systems, 2025*. [[Paper](https://asmedigitalcollection.asme.org/autonomousvehicles/article-abstract/doi/10.1115/1.4069346/1220059/3DGS-Loc-3D-Gaussian-Splatting-for-Map?redirectedFrom=fulltext)]
+* GSVisLoc: Generalizable Visual Localization for Gaussian Splatting Scene Representations, *arXiv, 2025*. [[Paper](https://arxiv.org/pdf/2508.18242)]
+* Camera Pose Refinement via 3D Gaussian Splatting, *arXiv, 2025*. [[Paper](https://arxiv.org/pdf/2508.17876)]
+* 3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization, *ICCV, 2023*. [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Moreau_CROSSFIRE_Camera_Relocalization_On_Self-Supervised_Features_from_an_Implicit_Representation_ICCV_2023_paper.pdf)]
+* GauLoc: 3D Gaussian Splatting-based Camera Relocalization, *Computer Graphics Forum, 2024*. [[Paper](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15256)] [[Code](https://github.com/xinzhe11/GauLoc)]
+* GS-Loc: A Vision Foundation Model-Driven 3D Gaussian Splatting Framework for Robust Visual Relocalization, *RAL, 2025*. [[Paper](https://ieeexplore.ieee.org/document/11260953)]
+
+  
 ### 3.8 Foundation Model<a id="3.8-Foundation-Model<"></a>
-
-
+- VGGT-SLAM
+- SLAM3R
+- ViSTA-SLAM
+- MASt3R-SLAM
 
 ## 4.Navigation<a id="navigation"></a>
 

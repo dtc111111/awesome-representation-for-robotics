@@ -315,12 +315,38 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 ## 1.Perception<a id="perception"></a>
 ### 1.1 Point Cloud<a id="1.1-Point-Cloud"></a>
+* Multimodal Virtual Point 3D Detection, **NeurIps, 2021**. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/895daa408f494ad58006c47a30f51c1f-Paper.pdf)]
+* PIXOR: Real-time 3D Object Detection from Point Clouds, **CVPR, 2018**. [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf)]
+* 3DSSD: Point-based 3D Single Stage Object Detector, **CVPR, 2020**. [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_3DSSD_Point-Based_3D_Single_Stage_Object_Detector_CVPR_2020_paper.pdf)]
+* Center-based 3D Object Detection and Tracking, **CVPR, 2021**. [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Yin_Center-Based_3D_Object_Detection_and_Tracking_CVPR_2021_paper.pdf)]
+* PointPillars: Fast Encoders for Object Detection From Point Clouds, **CVPR, 2019**. [[Website](https://ieeexplore.ieee.org/document/8954311)]
+* SceneGraphFusion: Incremental 3D Scene Graph Prediction from RGB-D Sequences, **CVPR, 2021**. [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_SceneGraphFusion_Incremental_3D_Scene_Graph_Prediction_From_RGB-D_Sequences_CVPR_2021_paper.pdf)]
+* Self-Supervised Learning of Scene-Graph Representations for Robotic Sequential Manipulation Planning, **PMLR, 2020**. [[Website](https://proceedings.mlr.press/v155/nguyen21b.html)]
+* PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding, **ECCV, 2020**. [[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480579.pdf)]
+* AUnified Query-based Paradigm for Point Cloud Understanding， **CVPR, 2022**. [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_A_Unified_Query-Based_Paradigm_for_Point_Cloud_Understanding_CVPR_2022_paper.pdf)]
 ### 1.2 Voxel Grid<a id="1.2-Voxel-Grid"></a>
+* VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection, **CVPR, 2018**. [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.pdf)]
+* VMNet: Voxel-Mesh Network for Geodesic-Aware 3D Semantic Segmentation, **IEEE**. [[Website](https://ieeexplore.ieee.org/document/9710530)]
+* VoxFormer: Sparse Voxel Transformer for Camera-based 3D Semantic Scene Completion, **CVPR, 2023**. [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_VoxFormer_Sparse_Voxel_Transformer_for_Camera-Based_3D_Semantic_Scene_Completion_CVPR_2023_paper.pdf)]
+* OctoMap: AnEfficient Probabilistic 3D Mapping Framework Based on Octrees, **Autonomous Robots, 2013**. [[Paper](https://courses.cs.washington.edu/courses/cse571/16au/slides/hornung13auro.pdf)]
 ### 1.3 Signed Distance Field (SDF)<a id="1.3-Signed-Distance-Field(SDF)"></a>
+* SurroundSDF: Implicit 3D Scene Understanding Based on Signed Distance Field, **CVPR, 2024**. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_SurroundSDF_Implicit_3D_Scene_Understanding_Based_on_Signed_Distance_Field_CVPR_2024_paper.pdf)]
 ### 1.4 Mesh<a id="1.4-Mesh"></a>
 ### 1.5 Scene Graph<a id="1.5-Scene-Graph"></a>
+* 3D Scene Graph: A structure for unified semantics, 3D space, and camera, **ICCV, 2019**. [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Armeni_3D_Scene_Graph_A_Structure_for_Unified_Semantics_3D_Space_ICCV_2019_paper.pdf)]
+* SGFormer: Semantic Graph Transformer for Point Cloud-Based 3D Scene Graph Generation, **AAAI**. [[Paper](https://ojs.aaai.org/index.php/AAAI/article/download/28197/28391)]
+* Hydra: A Real-time Spatial Perception System for 3D Scene Graph Construction and Optimization, **Robotics, 2022**. [[Paper](https://www.roboticsproceedings.org/rss18/p050.pdf)]
 ### 1.6 Neural Radiance Fields (NeRF)<a id="1.6-Neural-Radiance-Fields(NeRF)"></a>
+* NeRF-Det: Learning Geometry-Aware Volumetric Representation for Multi-View 3D Object Detection, **ICCV, 2023**, [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_NeRF-Det_Learning_Geometry-Aware_Volumetric_Representation_for_Multi-View_3D_Object_Detection_ICCV_2023_paper.pdf)]
+* GO-N3RDet: Geometry Optimized NeRF-enhanced 3D Object Detector, **CVPR, 2025**, [[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Li_GO-N3RDet_Geometry_Optimized_NeRF-enhanced_3D_Object_Detector_CVPR_2025_paper.pdf)]
+* CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields, **CVPR, 2022**. [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_CLIP-NeRF_Text-and-Image_Driven_Manipulation_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf)]
+* LERF: Language Embedded Radiance Fields, **ICCV, 2023**. [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kerr_LERF_Language_Embedded_Radiance_Fields_ICCV_2023_paper.pdf)]
+* SNI-SLAM: Semantic Neural Implicit SLAM, **CVPR, 2024**. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhu_SNI-SLAM_Semantic_Neural_Implicit_SLAM_CVPR_2024_paper.pdf)]
 ### 1.7 3D Gaussian Splatting (3DGS)<a id="1.7-3D-Gaussian-Splatting(3DGS)"></a>
+* GaussianBeV : 3D Gaussian Representation meets Perception Models for BeV Segmentation, **WACV, 2025**. [[Paper](https://openaccess.thecvf.com/content/WACV2025/papers/Chabot_GaussianBeV__3D_Gaussian_Representation_Meets_Perception_Models_for_BeV_WACV_2025_paper.pdf)]
+* 6DGS: 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model, **ECCV, 2024**. [[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06914.pdf)]
+* MATT-GS: Masked Attention-based 3DGS for Robot Perception and Object Detection, *arXiv*. [[Website](https://arxiv.org/abs/2503.19330)]
+* GS2Pose: Two-stage 6D Object Pose Estimation Guided by Gaussian Splatting, **CVPR, 2024**. [[Website](https://arxiv.org/abs/2411.03807)]
 * Semantic Gaussians: Open-Vocabulary Scene Understanding with 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.15624)] [[Website
 ](https://semantic-gaussians.github.io/)]
 * Segment Any 3D Gaussians, *arXiv*. [[Paper](https://jumpat.github.io/SAGA/SAGA_paper.pdf)] [[Website](https://jumpat.github.io/SAGA/)] [[Code](https://github.com/Jumpat/SegAnyGAussians)]
@@ -403,6 +429,12 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 * GlossGau: Efficient Inverse Rendering for Glossy Surface with Anisotropic Spherical Gaussian, *arXiv*. [[Paper](https://arxiv.org/abs/2502.14129)]
 * OMG: Opacity Matters in Material Modeling with Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/abs/2502.10988)]
 ### 1.8 Foundation Model<a id="1.8-Foundation-Model"></a>  
+* Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection. **ECCV, 2024**. [[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06319.pdf)]
+* YOLO-World: Real-Time Open-Vocabulary Object Detection. **CVPR, 2024**. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_YOLO-World_Real-Time_Open-Vocabulary_Object_Detection_CVPR_2024_paper.pdf)]
+* YOLOE:Real-Time Seeing Anything. **ICCV, 2025**. [[Paper](https://openaccess.thecvf.com/content/ICCV2025/supplemental/Wang_YOLOE_Real-Time_Seeing_ICCV_2025_supplemental.pdf)]
+* CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory, **Robotics, 2023**. [[Paper](https://arxiv.org/abs/2210.05663)]
+* Scene-LLM: Extending Language Model for 3D Visual Reasoning, **WACV, 2025**. [[Paper](https://openaccess.thecvf.com/content/WACV2025/papers/Fu_Scene-LLM_Extending_Language_Model_for_3D_Visual_Reasoning_WACV_2025_paper.pdf)]
+* Open-vocabulary Queryable Scene Representations for Real World Planning, **ICRA, 2023**. [[Website](https://ieeexplore.ieee.org/abstract/document/10161534)]
 
 ## 2.Mapping<a id="mapping"></a>
 ### 2.1 Point Cloud<a id="2.1-Point-Cloud"></a>
@@ -872,47 +904,35 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 ## 5.Manipulation<a id="manipulation"></a>
 ### 5.1 Point Cloud<a id="5.1-Point-Cloud"></a>
+* Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes, **IEEE, 2021**, [[Website](https://ieeexplore.ieee.org/document/9561877)]
+* PointNetGPD: Detecting Grasp Configurations from Point Sets, **IEEE, 2019**, [[Website](https://ieeexplore.ieee.org/document/8794435)]
 ### 5.2 Voxel Grid<a id="5.2-Voxel-Grid"></a>
+* Shape Completion Enabled Robotic Grasping, **IROS, 2017**, [[Paper](https://www.cs.columbia.edu/~allen/PAPERS/varley_iros_2017.pdf)]
+* VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection, **CVPR, 2018**, [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.pdf)]
+* Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter, **PMLR, 2020**, [[Paper](https://proceedings.mlr.press/v155/breyer21a.html)]
+* Fast Task Planning with Neuro-Symbolic Relaxation, **arXiv**, [[Website](https://arxiv.org/abs/2507.15975)]
 ### 5.3 Signed Distance Field (SDF)<a id="5.3-Signed-Distance-Field(SDF)"></a>
 ### 5.4 Mesh<a id="5.4-Mesh"></a>
 ### 5.5 Scene Graph<a id="5.5-Scene-Graph"></a>
-### 5.6 Neural Radiance Fields (NeRF)<a id="5.6-Neural-Radiance-Fields(NeRF)"></a>
-### 5.7 3D Gaussian Splatting (3DGS)<a id="5.7-3D-Gaussian-Splatting(3DGS)"></a>
-* Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes, **IEEE, 2021**, [[Website](https://ieeexplore.ieee.org/document/9561877)]
+* RoboEXP: Action-Conditioned Scene Graph via Interactive Exploration for Robotic Manipulation, **CoRL, 2024**, [[Website](https://openreview.net/forum?id=UHxPZgK33I)]
+* Dynamic Open-Vocabulary 3D Scene Graphs for Long-Term Language-Guided Mobile Manipulation, **IEEE, 2025**, [[Website](https://ouci.dntb.gov.ua/en/works/4grdOgwW/)]
 * Sequential Manipulation Planning on Scene Graph, **IEEE, 2022**, [[Website](https://ieeexplore.ieee.org/document/9981735)]
-* Fast Task Planning with Neuro-Symbolic Relaxation, **arXiv**, [[Website](https://arxiv.org/abs/2507.15975)]
+### 5.6 Neural Radiance Fields (NeRF)<a id="5.6-Neural-Radiance-Fields(NeRF)"></a>
+* GraspNeRF: Multiview-based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF, **ICRA, 2023**, [[Website](https://arxiv.org/abs/2210.06575)]
+* Evo-NeRF: Evolving NeRF for Sequential Robot Grasping of Transparent Objects, **CoRL, 2022**, [[Website](https://openreview.net/forum?id=Bxr45keYrf)]
+* Dex-NeRF: Using a Neural Radiance Field to Grasp Transparent Objects, **CoRL, 2021**,[[Paper](https://proceedings.mlr.press/v164/ichnowski22a/ichnowski22a.pdf)]
 * Radiance Fields for Robotic Teleoperation, **IEEE, 2024**, [[Website](https://ieeexplore.ieee.org/abstract/document/10801345)]
+### 5.7 3D Gaussian Splatting (3DGS)<a id="5.7-3D-Gaussian-Splatting(3DGS)"></a>
 * Point'n Move: Interactive scene object manipulation on Gaussian splatting radiance fields, **IET, 2024**,  [[Website](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ipr2.13190?af=R)]
 * HGS-Planner: Hierarchical Planning Framework for Active Scene Reconstruction Using 3D Gaussian Splatting, **ICRA, 2025**, [[Code](https://zijunfdu.github.io/HGS-Planner/)]
 * Object-Aware Gaussian Splatting for Robotic Manipulation, **ICRA, 2024**, [[Website](https://openreview.net/forum?id=gdRI43hDgo)]
 * MANUS: Markerless Grasp Capture using Articulated 3D Gaussians, **CVPR, 2024**, [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Pokhariya_MANUS_Markerless_Grasp_Capture_using_Articulated_3D_Gaussians_CVPR_2024_paper.pdf)]
 * Physically Embodied Gaussian Splatting: A Realtime Correctable World Model for Robotics, **Proc**, [[Website](https://arxiv.org/abs/2406.10788)]
 * Reinforcement Learning with Generalizable Gaussian Splatting, **IROS, 2024**, [[Website](https://arxiv.org/abs/2404.07950)]
-* GNFactor: Multi-Task Real Robot Learning with Generalizable Neural Feature Fields, **CORL, 2023**, [[Website](https://openreview.net/forum?id=b1tl3aOt2R2)]
-* DreamHOI: Subject-Driven Generation of 3D Human-Object Interactions with
-Diffusion Priors, **ICCV, 2025**, [[Paper](https://openaccess.thecvf.com/content/ICCV2025W/HiGen/papers/Zhu_DreamHOI_Subject-Driven_Generation_of_3D_Human-Object_Interactions_with_Diffusion_Priors_ICCVW_2025_paper.pdf)] 
-* EnerVerse: Envisioning Embodied Future Space for Robotics Manipulation， **arXiv**, [[Website](https://arxiv.org/abs/2501.01895)]
-* Open-vocabulary Queryable Scene Representations for Real World Planning, **ICRA, 2023**, [[Website](https://www.academia.edu/114475447/Open_vocabulary_Queryable_Scene_Representations_for_Real_World_Planning)]
-* Do As I Can, Not As I Say: Grounding Language in Robotic Affordances, **Proc**, [[Website](https://proceedings.mlr.press/v205/ichter23a.html)]
-* Code as Policies: Language Model Programs for Embodied Control, **IEEE, 2023**, [[Website](https://ieeexplore.ieee.org/document/10160591)]
-* PointNetGPD: Detecting Grasp Configurations from Point Sets, **IEEE, 2019**, [[Website](https://ieeexplore.ieee.org/document/8794435)]
-* Shape Completion Enabled Robotic Grasping, **IROS, 2017**, [[Paper](https://www.cs.columbia.edu/~allen/PAPERS/varley_iros_2017.pdf)]
-* VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection, **CVPR, 2018**, [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.pdf)]
-* Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter, **PMLR, 2020**, [[Paper](https://proceedings.mlr.press/v155/breyer21a.html)]
-* RoboEXP: Action-Conditioned Scene Graph via Interactive Exploration for Robotic Manipulation, **CoRL, 2024**, [[Website](https://openreview.net/forum?id=UHxPZgK33I)]
-* Dynamic Open-Vocabulary 3D Scene Graphs for Long-Term Language-Guided Mobile Manipulation, **IEEE, 2025**, [[Website](https://ouci.dntb.gov.ua/en/works/4grdOgwW/)]
-* GraspNeRF: Multiview-based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF, **ICRA, 2023**, [[Website](https://arxiv.org/abs/2210.06575)]
-* Evo-NeRF: Evolving NeRF for Sequential Robot Grasping of Transparent Objects, **CoRL, 2022**, [[Website](https://openreview.net/forum?id=Bxr45keYrf)]
-* Dex-NeRF: Using a Neural Radiance Field to Grasp Transparent Objects, **CoRL, 2021**,[[Paper](https://proceedings.mlr.press/v164/ichnowski22a/ichnowski22a.pdf)]
 * ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation, **ECCV, 2024**, [[Website](https://link.springer.com/chapter/10.1007/978-3-031-72761-0_20)]
 * GraspSplats: Efficient Manipulation with 3D Feature Splatting, **CoRL, 2024**, [[Website](https://openreview.net/forum?id=pPhTsonbXq)]
 * GaussianGrasper: 3D Language Gaussian Splatting for Open-Vocabulary Robotic Grasping, **IEEE**, [[Website](https://ieeexplore.ieee.org/document/10607869)]
 * SplatSim: Zero-Shot Sim2Real Transfer of RGB Manipulation Policies Using Gaussian Splatting, **IEEE**, [[Website](https://ieeexplore.ieee.org/document/11128339)]
-* LERF: Language Embedded Radiance Fields, **ICCV, 2023**, [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kerr_LERF_Language_Embedded_Radiance_Fields_ICCV_2023_paper.pdf)]
-* Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation, **CoRL, 2023**, [[Website](https://openreview.net/forum?id=Rb0nGIt_kh5)]
-* CATNIPS: Collision Avoidance Through Neural Implicit Probabilistic Scenes, **IEEE, 2024**, [[Paper](https://msl.stanford.edu/papers/chen_catnips_2024.pdf)]
-* Enhancing Exploratory Capability of Visual Navigation Using Uncertainty of Implicit Scene Representation, **IEEE, 2024**, [[Website](https://ieeexplore.ieee.org/document/10801778)]
-* Ditto: Building Digital Twins of Articulated Objects from Interaction, **CVPR, 2022**. [[Paper](https://arxiv.org/abs/2202.08227)] [[Code](https://github.com/UT-Austin-RPL/Ditto)] [[Website](https://ut-austin-rpl.github.io/Ditto/)]
 * Relational-NDF:SE(3)-Equivariant Relational Rearrangement with Neural Descriptor Fields, **CoRL 2022**. [[Paper](https://arxiv.org/pdf/2211.09786.pdf)] [[Code](https://github.com/anthonysimeonov/relational_ndf)] [[Website](https://anthonysimeonov.github.io/r-ndf/)]
 * Neural Descriptor Fields:SE(3)-Equivariant Object Representations for Manipulation, **ICRA, 2022**. [[Paper](https://arxiv.org/abs/2112.05124)] [[Code](https://github.com/anthonysimeonov/ndf_robot)] [[Website](https://yilundu.github.io/ndf/)]
 * Neural Motion Fields: Encoding Grasp Trajectories as Implicit Value Functions, **RSS 2022**. [[Paper](https://arxiv.org/pdf/2206.14854.pdf)]  [[Video](https://youtu.be/B-pEhT1pi-Q)]
@@ -922,23 +942,25 @@ Diffusion Priors, **ICCV, 2025**, [[Paper](https://openaccess.thecvf.com/content
 * ObjectFolder 2.0: A Multisensory Object Dataset for Sim2Real Transfer, **CVPR, 2022**. [[Paper](https://arxiv.org/pdf/2204.02389.pdf)] [[Code](https://github.com/rhgao/ObjectFolder)] [[Website](https://ai.stanford.edu/~rhgao/objectfolder2.0/)]
 * Local Neural Descriptor Fields: Locally Conditioned Object Representations for Manipulation, **ICRA, 2023**. [[Paper](https://arxiv.org/pdf/2302.03573.pdf)] [[Code](https://github.com/elchun/lndf_robot)] [[Website](https://elchun.github.io/lndf/)]
 * Equivariant Descriptor Fields: SE(3)-Equivariant Energy-Based Models for End-to-End Visual Robotic Manipulation Learning, **ICLR, 2023**. [[Paper](https://openreview.net/forum?id=dnjZSPGmY5O)] [[Code](https://github.com/tomato1mule/edf)]
-* Point'n Move: Interactive Scene Object Manipulation on Gaussian Splatting Radiance Fields, *arXiv*. [[Paper](https://arxiv.org/pdf/2311.16737.pdf)]
-* MANUS: Markerless Hand-Object Grasp Capture using Articulated 3D Gaussians, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2312.02137.pdf)]
-* Reinforcement Learning with Generalizable Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2404.07950.pdf)]
-* GaussianGrasper: 3D Language Gaussian Splatting for Open-vocabulary Robotic Grasping, *arXiv*. [[Paper](https://arxiv.org/pdf/2403.09637)] [[Code](https://github.com/MrSecant/GaussianGrasper)]
 * 3D-Aware Manipulation with Object-Centric Gaussian Splatting, *arXiv*. [[Paper](https://object-aware-gaussian.github.io/assets/pdf/corl.pdf)] [[Website](https://object-aware-gaussian.github.io/)]
 * Gaussian Splatting to Real World Flight Navigation Transfer with Liquid Networks, *arXiv*. [[Paper](https://arxiv.org/pdf/2406.15149)]
-* Physically Embodied Gaussian Splatting: A Realtime Correctable World Model for Robotics, *arXiv*. [[Paper](https://arxiv.org/pdf/2406.10788)]
 * Radiance Fields for Robotic Teleoperation, *arXiv*. [[Paper](https://arxiv.org/pdf/2407.20194)]
 * Dynamic 3D Gaussian Tracking for Graph-Based Neural Dynamics Modeling, *arXiv*. [[Paper](https://gaussian-gbnd.github.io/)]
-* GraspSplats: Efficient Manipulation with 3D Feature Splatting, **CoRL, 2024**. [[Paper](https://arxiv.org/pdf/2409.02084)] [[Website](https://graspsplats.github.io/)] [[Code](https://github.com/jimazeyu/GraspSplats)]
-* SplatSim: Zero-Shot Sim2Real Transfer of RGB Manipulation Policies Using Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.10161)]
-* HGS-Planner: Hierarchical Planning Framework for Active Scene Reconstruction Using 3D Gaussian Splatting, *arXiv*. [[Paper](https://arxiv.org/pdf/2409.17624)]
-* DreamHOI: Subject-Driven Generation of 3D Human-Object Interactions with Diffusion Priors, *arXiv*. [[Paper](https://arxiv.org/abs/2409.08279)]
-* ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation, **ECCV, 2024**. [[Paper](https://arxiv.org/pdf/2403.08321)]
 * MSGField: A Unified Scene Representation Integrating Motion, Semantics, and Geometry for Robotic Manipulation, *arXiv*. [[Paper](https://arxiv.org/abs/2410.15730)]
-* EnerVerse: Envisioning Embodied Future Space for Robotics Manipulation, *arXiv*. [[Paper](https://arxiv.org/abs/2501.01895)]
+
 ### 5.8 Foundation Model<a id="5.8-Foundation-Model"></a>
+* LERF: Language Embedded Radiance Fields, **ICCV, 2023**, [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Kerr_LERF_Language_Embedded_Radiance_Fields_ICCV_2023_paper.pdf)]
+* Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation, **CoRL, 2023**, [[Website](https://openreview.net/forum?id=Rb0nGIt_kh5)]
+* GNFactor: Multi-Task Real Robot Learning with Generalizable Neural Feature Fields, **CORL, 2023**, [[Website](https://openreview.net/forum?id=b1tl3aOt2R2)]
+* DreamHOI: Subject-Driven Generation of 3D Human-Object Interactions with
+Diffusion Priors, **ICCV, 2025**, [[Paper](https://openaccess.thecvf.com/content/ICCV2025W/HiGen/papers/Zhu_DreamHOI_Subject-Driven_Generation_of_3D_Human-Object_Interactions_with_Diffusion_Priors_ICCVW_2025_paper.pdf)] 
+* EnerVerse: Envisioning Embodied Future Space for Robotics Manipulation， **arXiv**, [[Website](https://arxiv.org/abs/2501.01895)]
+* Open-vocabulary Queryable Scene Representations for Real World Planning, **ICRA, 2023**, [[Website](https://www.academia.edu/114475447/Open_vocabulary_Queryable_Scene_Representations_for_Real_World_Planning)]
+* Do As I Can, Not As I Say: Grounding Language in Robotic Affordances, **Proc**, [[Website](https://proceedings.mlr.press/v205/ichter23a.html)]
+* Code as Policies: Language Model Programs for Embodied Control, **IEEE, 2023**, [[Website](https://ieeexplore.ieee.org/document/10160591)]
+* CATNIPS: Collision Avoidance Through Neural Implicit Probabilistic Scenes, **IEEE, 2024**, [[Paper](https://msl.stanford.edu/papers/chen_catnips_2024.pdf)]
+* Enhancing Exploratory Capability of Visual Navigation Using Uncertainty of Implicit Scene Representation, **IEEE, 2024**, [[Website](https://ieeexplore.ieee.org/document/10801778)]
+* Ditto: Building Digital Twins of Articulated Objects from Interaction, **CVPR, 2022**. [[Paper](https://arxiv.org/abs/2202.08227)] [[Code](https://github.com/UT-Austin-RPL/Ditto)] [[Website](https://ut-austin-rpl.github.io/Ditto/)]
 
 ## 6.Simulation<a id="simulation"></a>
 * Control4D: Efficient 4D Portrait Editing with Text, **CVPR, 2024**. [[Paper](https://arxiv.org/pdf/2305.20082.pdf)] [[Website](https://control4darxiv.github.io/)]

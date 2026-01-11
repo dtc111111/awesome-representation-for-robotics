@@ -243,7 +243,7 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 * MVG-Splatting: Multi-View Guided Gaussian Splatting with Adaptive Quantile-Based Geometric Consistency Densification, *arXiv*. [[Paper](https://browse.arxiv.org/pdf/2407.11840.pdf)]
 * Splatfacto-W: A Nerfstudio Implementation of Gaussian Splatting for Unconstrained Photo Collections, *arXiv*. [[Paper](https://browse.arxiv.org/pdf/2407.12306.pdf)]
 * Compact 3D Gaussian Splatting for Static and Dynamic Radiance Fields, *arXiv*. [[Paper](https://arxiv.org/abs/2408.03822)]
-* FLoD: Integrating Flexible Level of Detail into 3D Gaussian Splatting for Customizable Rendering, *arXiv*. [[Paper](https://arxiv.org/abs/2408.12894)]
+* FLoD: Integrating Flexible Level of Detail into 3D Gaussian Splatting for Customizable Rendering, *TOG, 2025*. [[Paper](https://arxiv.org/abs/2408.12894)]
 * Robust 3D Gaussian Splatting for Novel View Synthesis in Presence of Distractors, *arXiv*. [[Paper](https://arxiv.org/abs/2408.11697)]
 * PRoGS: Progressive Rendering of Gaussian Splats, *arXiv*. [[Paper](https://arxiv.org/abs/2409.01761)]
 * Weight Conditioning for Smooth Optimization of Neural Networks, *arXiv*. [[Paper](https://arxiv.org/abs/2409.03424)]
@@ -438,29 +438,29 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 ## 2.Mapping<a id="mapping"></a>
 ### 2.1 Point Cloud<a id="2.1-Point-Cloud"></a>
-- COLMAP
-- Cube-SLAM
-- QuadricSLAM
-- ConceptFusion
-- ElasticFusion
+- COLMAP: Structure-from-Motion Revisited. **CVPR, 2016**. [[Website](https://ieeexplore.ieee.org/document/7780814)]
+- CubeSLAM: Monocular 3-D Object SLAM. **IEEE Transactions on Robotics, 2019**. [[Website](https://ieeexplore.ieee.org/document/8708251)]
+- QuadricSLAM: Dual Quadrics as SLAM Landmarks. **CVPR, 2018**. [[Paper](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w9/Nicholson_QuadricSLAM_Dual_Quadrics_CVPR_2018_paper.pdf)]
+- ConceptFusion: Open-set Multimodal 3D Mapping. *arxiv*. [[Paper](https://openreview.net/pdf?id=zEyavwx3qf)]
+- ElasticFusion: Real-time dense SLAM and light source estimation, **The International Journal of Robotics Research. 2016**. [[Website](https://journals.sagepub.com/doi/10.1177/0278364916669237)]
 
 ### 2.2 Voxel Grid<a id="2.2-Voxel-Grid"></a>
-- VoxelMap
-- LiDAR Road-Atlas
-- OctoMap
+- Efficient and Probabilistic Adaptive Voxel Mapping for Accurate Online LiDAR Odometry, **IEEE Robotics and Automation Letters, 2022**. [[Website](https://ieeexplore.ieee.org/document/9813516)]
+- LiDAR Road-Atlas: An Efficient Map Representation for General 3D Urban Environment, **FRPS**. [[Website](https://ieeexplore.ieee.org/document/10876093)]
+- OctoMap: AnEfficient Probabilistic 3D Mapping Framework Based on Octrees, **Autonomous Robots, 2013**. [[Paper](https://courses.cs.washington.edu/courses/cse571/16au/slides/hornung13auro.pdf)]
 
 ### 2.3 Signed Distance Field (SDF)<a id="2.3-Signed-Distance-Field(SDF)"></a>
 
-- Voxgraph
-- KinectFusion
+- Voxgraph: Globally Consistent, Volumetric Mapping using Signed Distance Function Submaps, **IEEE Robotics and Automation Letters, 2019**. [[Website](https://arxiv.org/abs/2004.13154)]
+- KinectFusion: Real-time dense surface mapping and tracking, **EEE International Symposium on Mixed and Augmented Reality, 2011**. [[Website](https://ieeexplore.ieee.org/document/6162880)]
 
 ### 2.4 Mesh<a id="2.4-Mesh"></a>
-- Kimera
+- Kimera: from SLAM to Spatial Perception with 3D Dynamic Scene Graphs, **J. Rob. Research, 2021**. [[Paper](https://arxiv.org/abs/2101.06894)]
 
 ### 2.5 Scene Graph<a id="2.5-Scene-Graph"></a>
-- ConceptGraphs
-- Clio
-- Hydra
+- ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning, **arxiv**. [[Website](https://arxiv.org/abs/2309.16650)]
+- Clio: Real-Time Task-Driven Open-Set 3D Scene Graphs, **IEEE Robotics and Automation Letters, 2024**. [[Website](https://ieeexplore.ieee.org/document/10659066)]
+- Hydra: A Real-time Spatial Perception System for 3D Scene Graph Construction and Optimization, **Robotics, 2022**. [[Paper](https://www.roboticsproceedings.org/rss18/p050.pdf)]
 
 ### 2.6 Neural Radiance Fields (NeRF)<a id="2.6-Neural-Radiance-Fields(NeRF)"></a>
 
@@ -506,7 +506,7 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 * **NGEL-SLAM**: Neural Implicit Representation-based Global Consistent Low-Latency SLAM System, *ICRA, 2024*. [[Paper](https://arxiv.org/pdf/2311.09525.pdf)] [[Code](https://github.com/YunxuanMao/ngel_slam)] 
 * **SNI-SLAM**: Semantic Neural Implicit SLAM, *CVPR, 2024*. [[Paper](https://arxiv.org/pdf/2311.11016.pdf)] [[Code](https://github.com/IRMVLab/SNI-SLAM)]
 * Implicit Event-RGBD Neural SLAM, *CVPR, 2024*. [[Paper](https://arxiv.org/pdf/2311.11013.pdf)]
-* **DNS SLAM**: Dense Neural Semantic-Informed SLAM, *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2312.00204.pdf)] [Code](https://github.com/Li-Kunyi/dns-slam)]
+* **DNS SLAM**: Dense Neural Semantic-Informed SLAM, *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2312.00204.pdf)][[Code](https://github.com/Li-Kunyi/dns-slam)]
 * **PLGSLAM**: Progressive Neural Scene Represenation with Local to Global Bundle Adjustment, *CVPR, 2024*. [[Paper](https://arxiv.org/pdf/2312.09866.pdf)] [[Code](https://github.com/dtc111111/plgslam)]
 * **NeRF-VO**: Real-Time Sparse Visual Odometry with Neural Radiance Fields, *RAL, 2024*. [[Paper](https://arxiv.org/pdf/2312.13471.pdf)]
 * Ternary-type Opacity and Hybrid Odometry for RGB-only NeRF-SLAM, *IROS, 2024*. [[Paper](https://arxiv.org/pdf/2312.13332.pdf)]
@@ -776,40 +776,40 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 
 ### 2.8 Foundation Model<a id="2.8-Foundation-Model></a>
-- CUT3R
-- Pow3R
-- MASt3R
-- MUSt3R
-- VGGT
-- Spann3R
-- π3
-- DUSt3R
+- CUT3R: Continuous 3D Perception Model with Persistent State, **CVPR, 2025**. [[Paper](https://arxiv.org/pdf/2501.12387)]
+- Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors, **CVPR, 2025**. [[Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Jang_Pow3R_Empowering_Unconstrained_3D_Reconstruction_with_Camera_and_Scene_Priors_CVPR_2025_paper.pdf)]
+- MASt3R: Grounding Image Matching in 3D with MASt3R, **CVPR, 2025**. [[Website](https://arxiv.org/abs/2406.09756)]
+- MUSt3R: Multi-view Network for Stereo 3D Reconstruction, **CVPR, 2025**. [[Website](https://arxiv.org/abs/2503.01661)]
+- VGGT: Visual Geometry Grounded Transformer, **CVPR, 2025**. [[Website](https://arxiv.org/abs/2503.11651v1)]
+- Spann3R: 3D Reconstruction with Spatial Memory, **CVPR, 2025**. [[Paper](https://hengyiwang.github.io/projects/spanner/spann3r.pdf)]
+- π3: Permutation-Equivariant Visual Geometry Learning, **arxiv**. [[Website](https://arxiv.org/abs/2507.13347)]
+- DUSt3R: Geometric 3D Vision Made Easy, **CVPR, 2024**. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.pdf)]
 
 ## 3.Localization<a id="localization></a>
 
 ### 3.1 Point Cloud<a id="3.1-Point-Cloud"></a>
-- F-LOAM
-- ORB-SLAM2
-- DROID-SLAM
-- TEASER++
-- KISS-ICP
-- MonoSLAM
+- F-LOAM : Fast LiDAR Odometry and Mapping, **IROS, 2021**. [[Paper](https://arxiv.org/pdf/2107.00822)]
+- ORB-SLAM2: an Open-Source SLAM System for Monocular, Stereo and RGB-D Cameras, **IEEE Transactions on Robotics, 2016**. [[Website](https://arxiv.org/abs/1610.06475)]
+- DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras, **NeurIPS, 2021**. [[Code](https://github.com/princeton-vl/DROID-SLAM。)]
+- TEASER: Fast and Certifiable Point Cloud Registration, **IEEE Transactions on Robotics, 2021**. [[Website](https://ieeexplore.ieee.org/document/9286491)]
+- KISS-ICP: In Defense of Point-to-Point ICP -- Simple, Accurate, and Robust Registration If Done the Right Way, **Robotics, 2022**. [[Website](https://arxiv.org/abs/2209.15397)]
+- MonoSLAM: Real-Time Single Camera SLAM, **IEEE Transactions on Pattern Analysis and Machine Intelligence, 2007**. [[Website](https://ieeexplore.ieee.org/document/4160954)]
 
 ### 3.2 Voxel Grid<a id="3.2-Voxel-Grid"></a>
-- Voxel-Loc
-- Voxel-6D
+- Voxel-Based Localization and Mapping for Multirobot System in GPS-Denied Environments, **IEEE Transactions on Industrial Electronics, 2022**. [[Website](https://ieeexplore.ieee.org/abstract/document/9724114)]
+- 6-DOF localization for a mobile robot using outdoor 3D voxel maps, **IEEE/RSJ International Conference on Intelligent Robots and Systems, 2010**. [[Website](https://ieeexplore.ieee.org/abstract/document/5652983)]
 
 
 ### 3.3 Signed Distance Field (SDF)<a id="3.3-Signed-Distance-Field(SDF)"></a>
-- Free-space features
-- Freetures
+- Free-Space Features: Global Localization in 2D Laser SLAM Using Distance Function Maps, **IROS, 2019**. [[Website](https://ieeexplore.ieee.org/document/8967683)]
+- Freetures: Localization in Signed Distance Function Maps, **IEEE Robotics and Automation Letters**. [[Website](https://ieeexplore.ieee.org/document/9327493)]
 
 
 ### 3.4 Mesh<a id="3.4-Mesh"></a>
 
 ### 3.5 Scene Graph<a id="3.5-Scene-Graph"></a>
-- X-View
-- SG-Reg
+- X-View: Graph-Based Semantic Multi-View Localization, **IEEE Robotics and Automation Letters, 2018**. [[Website](https://ieeexplore.ieee.org/abstract/document/8281068)]
+- SG-Reg: Generalizable and Efficient Scene Graph Registration, **IEEE Transactions on Robotics, 2025**. [[Website](https://ieeexplore.ieee.org/abstract/document/11024207)]
 
 ### 3.6 Neural Radiance Fields (NeRF)<a id="3.6-Neural-Radiance-Fields(NeRF)"></a>
 

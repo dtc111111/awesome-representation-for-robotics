@@ -1,5 +1,5 @@
 <div align="center"> 
-<img src="Images/image1.png" width="400" height="350" alt="Celebration"/>    
+<img src="Images/image3.png" width="400" height="350" alt="Celebration"/>    
    
 # Awesome 3D Scene Representation for Robotics [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
    

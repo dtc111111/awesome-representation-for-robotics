@@ -76,42 +76,38 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 
 ---
 ## Survey
-#### [S1] A Survey on 3D Gaussian Splatting
+#### [S0] What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models
+- **🧑‍🔬 Author**：Tianchen Deng, Yue Pan, Shenghai Yuan, Dong Li, et al.
+- **🏫 Institute**：Shanghai Jiao Tong University, University of Boon, Nanyang Technological University 
+- **🔗 Link**：[[arXiv:2512.03422](https://arxiv.org/abs/2512.03422)]
+
+- #### [S1] Foundation Models in Robotics: Applications, Challenges, and the Future
+- **🧑‍🔬 Author**：Roya Firoozi, Johnathan Tucker, et al.
+- **🏫 Institute**：Stanford University, Princeton University
+- **🔗 Link**：[[IJRR](https://journals.sagepub.com/doi/full/10.1177/02783649241281508)
+
+ 
+- #### [S2]  Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis
+- **🧑‍🔬 Author**：Yafei Hu, Quanting Xie, et al.
+- **🏫 Institute**：CMU, Bosch Center for AI, MIT
+- **🔗 Link**：[[arXiv:2312.08782](https://arxiv.org/pdf/2312.08782)]
+
+
+- #### [S3]  Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey
+- **🧑‍🔬 Author**：Jiahui Zhang, Yuelei Li, et al.
+- **🏫 Institute**：NTU, Caltech
+- **🔗 Link**：[[arXiv:2507.14501](https://arxiv.org/pdf/2507.14501)]
+  
+- #### [S4] A Survey on 3D Gaussian Splatting
 - **🧑‍🔬 Author**：Guikun Chen, Wenguan Wang
 - **🏫 Institute**：Zhejiang University
 - **🔗 Link**：[[arXiv:2401.03890](https://arxiv.org/abs/2401.03890)]
 
 
-#### [S2] 3D Gaussian as a New Vision Era: A Survey
+#### [S5] 3D Gaussian as a New Vision Era: A Survey
 - **🧑‍🔬 Author**：Ben Fei, Jingyi Xu, Rui Zhang, Qingyuan Zhou, Weidong Yang, Ying He
 - **🏫 Institute**：Fudan University ⟐ Nanyang Technological University
 - **🔗 Link**：[[IEEE Transactions on Visualization and Computer Graphics 2024](https://arxiv.org/abs/2402.07181)]
-
-
-#### [S3] Recent Advances in 3D Gaussian Splatting
-- **🧑‍🔬 Author**：Tong Wu, Yu-Jie Yuan, Ling-Xiao Zhang, Jie Yang, Yan-Pei Cao, Ling-Qi Yan, Lin Gao
-- **🏫 Institute**：Chinese Academy of Sciences ⟐ VAST ⟐  University of California
-- **🔗 Link**：[[arXiv:2403.11134](https://arxiv.org/abs/2403.11134)]
-
-
-#### [S4] Gaussian Splatting: 3D Reconstruction and Novel View Synthesis, a Review
-- **🧑‍🔬 Author**：Anurag Dalal, Daniel Hagen, Kjell G. Robbersmyr, Kristian Muri Knausgård
-- **🏫 Institute**：University of Agder
-- **🔗 Link**：[[IEEE Access](https://arxiv.org/abs/2405.03417)]
-
-
-#### [S5] Survey on Fundamental Deep Learning 3D Reconstruction Techniques
-- **🧑‍🔬 Author**：Yonge Bai, LikHang Wong, TszYin Twan
-- **🏫 Institute**：McMaster University ⟐  City University of Hong Kong
-- **🔗 Link**：[[arXiv:2405.03417](https://arxiv.org/abs/2407.08137)]
-
-
-#### [S6] 3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities
-- **🧑‍🔬 Author**：Yanqi Bao, Tianyu Ding, Jing Huo, Yaoli Liu, Yuxin Li, Wenbin Li, Yang Gao, Jiebo Luo
-- **🏫 Institute**：Nanjing University ⟐  University of Rochester ⟐ Microsoft
-- **🔗 Link**：[[arXiv:2405.03417](https://arxiv.org/abs/2407.17418)]
-
-
 
 
 ## General Model

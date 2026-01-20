@@ -565,7 +565,6 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 - **SLC^2-SLAM**: Semantic-Guided Loop Closure Using Shared Latent Code for NeRF SLAM, *IROS, 2025*. [[Paper](https://ieeexplore.ieee.org/document/10935649/)]
 - **MARVO**: Marine-Adaptive Radiance-aware Visual Odometry, *arXiv, 2025*. [[Paper](https://arxiv.org/pdf/2511.22860)]
 
-#### 2.6.2 Scene Reconstruction
 
 
 ### 2.7 3D Gaussian Splatting (3DGS)<a id="2.7-3D-Gaussian-Splatting(3DGS)"></a>

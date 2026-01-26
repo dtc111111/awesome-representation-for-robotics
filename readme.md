@@ -84,7 +84,7 @@ If you find this repository useful, please consider [citing](#citation) and STAR
 - #### [S1] Foundation Models in Robotics: Applications, Challenges, and the Future
 - **🧑‍🔬 Author**：Roya Firoozi, Johnathan Tucker, et al.
 - **🏫 Institute**：Stanford University, Princeton University
-- **🔗 Link**：[[IJRR](https://journals.sagepub.com/doi/full/10.1177/02783649241281508)
+- **🔗 Link**：[[IJRR](https://journals.sagepub.com/doi/full/10.1177/02783649241281508)]
 
  
 - #### [S2]  Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis
